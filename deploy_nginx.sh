@@ -36,7 +36,7 @@ cp -R grav-site "${DIST_DIR}"
 chown -R www:www "${DIST_DIR}"
 #Setup the nginx profile settings
 nginx_config="/usr/local/etc/nginx-${PROFILE_NAME}.conf"
-cp "grav-site/webserver-configs/nginx.conf" "${nginx_config}"
+cp "nginx-live.conf" "${nginx_config}"
 sed -i conf "s|%%ROOT_DIR%%|${DIST_DIR}|g" "${nginx_config}"
 
 sysrc nginx_config="${nginx_config}"
