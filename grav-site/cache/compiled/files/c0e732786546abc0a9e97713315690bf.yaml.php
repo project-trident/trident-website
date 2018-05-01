@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/usr/home/kenmoore/Trident/trident-website/grav-site/system/config/system.yaml',
-    'modified' => 1525187706,
+    'modified' => 1525199643,
     'data' => [
         'absolute_urls' => true,
         'timezone' => '',

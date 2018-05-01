@@ -25,7 +25,8 @@ echo "Installing static site..."
 if [ -d "${DIST_DIR}" ] ; then
   ${CMD_PREFIX} rm -r "${DIST_DIR}"
 fi
-${CMD_PREFIX} cp -r "${STATIC_DIR}" "${DIST_DIR}"
+${CMD_PREFIX} cp -r grav-site "${DIST_DIR}"
+${CMD_PREFIX} cp -r ${STATIC_DIR}/* "${DIST_DIR}/"
 ${CMD_PREFIX} chown -R www:www "${DIST_DIR}"
 
 #Setup the nginx profile settings

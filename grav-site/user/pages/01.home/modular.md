@@ -1,5 +1,5 @@
 ---
-title: Project Trident
+title: Woo
 menu: Home
 onpage_menu: true
 body_class: index
@@ -10,10 +10,13 @@ content:
         by: default
         dir: asc
         custom:
-            - _slider
-            - _welcome
-            - _categories
-            - _portfolio
-            - _footer
+            - _showcase
+            - _features
+            - _pricing
+            - _callout
+            - _screenshots
+            - _testimonials
+            - _subscribe
 ---
+
 

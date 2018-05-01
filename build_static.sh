@@ -19,6 +19,8 @@ origdir="${PWD}"
 cd grav-site
 bin/plugin blackhole generate --force "http://localhost" --output-path "../${BUILD_DIR}" --output-url "http://${FINAL_SITE}" 
 
+cd "${origdir}"
+
 if [ "clean" = "${clean}" ] ; then
   echo "Stopping the live site on the local system..."
   ${CMD_PREFIX} service nginx stop

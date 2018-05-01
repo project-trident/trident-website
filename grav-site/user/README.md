@@ -1,25 +1,29 @@
-# Photographer Skeleton for Grav
+# Woo Skeleton for Grav
 
-![Photographer](assets/readme_1.png)
+![Woo](assets/readme_1.png)
 
-This Grav theme is a port of the [Free Bootstrap 3.0 Template](http://livedemo00.template-help.com/wt_bootstrap_free_sample/index.html) by [Template Help](http://template-help.com/).
+Woo is a clean, modern, landing page site template by [Styleshout](http://www.styleshout.com/). It has a fully responsive design and was tested on all major browser and mobile devices. Woo is the perfect template to showcase your apps, services or digital goods.
 
 # Features
 
-* Bootstrap 3.0
-* Photo Slider
-* Photo Gallery
+* HTML5 and CSS3
+* Fully Responsive
+* Attractive and modern design
 * Various templates for presenting your content
-* Modular template included
-* Simple Form Support
-* 2 Level custom menu
-* Social Icons
+* CSS Animations
+* Fontawesome icon fonts
+* @font-face custom web fonts
+* jQuery enhanced
+* Flexslider
+* Image lightbox
+* Smooth scrolling effect
+* Cross browser compatible
 
 ## Basic Setup for a new Grav site
 
-The simplest way to install Photographer theme for Grav is to download and install the Photographer Skeleton package:
+The simplest way to install Woo theme for Grav is to download and install the Woo Skeleton package:
 
-1. [Download Photographer Skeleton](http://getgrav.org/downloads/skeletons#extras)
+1. [Download Woo Skeleton](http://getgrav.org/downloads/skeletons#extras)
 2. Simply unzip the package into your web root folder.
 3. Point your browser at the folder, job done!
 
@@ -29,12 +33,12 @@ The simplest way to install Photographer theme for Grav is to download and insta
 
 ## Existing Grav site
 
-It is possible to install just the theme, but page content will need to reference the [Photographer theme](https://github.com/getgrav/grav-theme-photographer)'s supported templates.  It is strongly advised to at least install the Photographer Skeleton package to see the theme's capabilities in action.
+It is possible to install just the theme, but page content will need to reference the [Woo theme](https://github.com/getgrav/grav-theme-woo)'s supported templates.  It is strongly advised to at least install the Woo Skeleton package to see the theme's capabilities in action.
 
 To install  **just** the theme:
 
 ```
-$ bin/gpm install photographer
+$ bin/gpm install woo
 ```
 
 
