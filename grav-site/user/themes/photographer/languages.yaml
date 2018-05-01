@@ -1,0 +1,5 @@
+en:
+  PLUGIN_SIMPLE_FORM:
+    TEMPLATES:
+      HIRE: Hire me form
+      CONTACT: Location contact form

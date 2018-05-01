@@ -1,0 +1,22 @@
+<div class="row_3">
+    <div class="container">
+        <div class="row">
+            <ul class="list3">
+                {% for item in page.header.portfolio %}
+                    <li class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="{{ item.class }}">
+                            <figure>{{ page.media[item.image] }}</figure>
+                            <div class="info1 maxheight">
+                                <p class="list3title1">{{ item.title1 }}</p>
+                                <p class="list3title2">{{ item.title2 }}</p>
+                                <p class="list3title3">{{ item.title3 }}</p>
+                                <a href="{{ item.linkurl }}" class="btn-link btn-link1">{{ item.linktext }}<span></span></a>
+                            </div>
+                        </div>
+                    </li>
+                {% endfor %}
+                {{ content }}
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <div id="content">
+        <div class="row_8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 gmap">
+                        <div class="map">{{ page.header.map }}</div>
+                  </div>  
+              </div> 
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 address">
+                    {{ page.content }}
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 address">
+                    <h2>{{ page.header.title2 }}</h2>
+                    {% if config.plugins.simple_form.enabled %}
+                        {% set simple_form_config = page.header.simple_form ?: config.themes.photographer.simple_form %}
+                        {{ simple_form(simple_form_config) }}
+                    {% endif %}
+            </div>
+        </div> 
+    </div>
+</div>
+</div>
+{% endblock %}

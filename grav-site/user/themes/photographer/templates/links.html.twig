@@ -1,0 +1,35 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <div id="content">
+        <div class="row_7">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8">
+                        <h2 class="pad_bot2">{{ page.header.title }}</h2>
+                        <div class="row links">
+                            {% if page.header.links %}
+                            {% for row in page.header.links|batch(4) %}
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                  {% for link in row %}
+                                    <h3><a class="btn-link4" href="{{ link.url }}">{{ link.text }}</a></h3>
+                                    <p>{{ link.description }}</p>
+                                  {% endfor %}
+                            </div>
+                        {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <h2>{{ page.header.title2 }}</h2>
+                    <ul class="list2">
+                        {% for link in page.header.friendlinks %}
+                            <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+                        {% endfor %}
+                    </ul> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

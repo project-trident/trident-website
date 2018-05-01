@@ -1,0 +1,27 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+<div id="content">
+    <div class="row_5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-7 reserve_table">
+                    {{ page.content }}
+                </div>
+                
+                <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-4 col-md-4 col-sm-4">
+                    <h2>{{ page.header.work.title }}</h2>
+                    <hr class="line2">
+                    <p class="title5">{{ page.header.work.description }}.</p>
+                    <h2 class="pad_bot1">{{ page.header.hiretitle }}</h2>
+
+                    {% if config.plugins.simple_form.enabled %}
+                        {% set simple_form_config = page.header.simple_form ?: config.themes.photographer.simple_form %}
+                        {{ simple_form(simple_form_config) }}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

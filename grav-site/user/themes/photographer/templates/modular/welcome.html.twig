@@ -1,0 +1,10 @@
+<div class="row_1">
+    <div class="container">
+        <p class="title1">{{ page.header.title }}</p>
+        <p class="title2">{{ page.header.description }}</p>
+        {{ content }}
+        {% for button in page.header.buttons %}
+            <a href="{{ button.url }}" class="{{ button.class }}">{{ button.text }}</a>
+        {% endfor %}            
+    </div>
+</div>

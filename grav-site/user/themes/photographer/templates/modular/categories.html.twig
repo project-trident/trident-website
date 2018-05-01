@@ -1,0 +1,24 @@
+<div class="row_2">
+    <div class="container">
+        <div class="row">
+            <ul class="list1">
+                {% for category in page.header.categories %}
+                    <li class="col-lg-4 col-md-4 col-sm-4 listbox{{ loop.index }}">
+                        <div class="{{ category.class }}">
+                            <a href="#">
+                                {% if category.title_position == 'top' %}
+                                    <p>{{ category.title }}</p>
+                                {% endif %}
+                                <figure>{{ page.media[category.image] }}</figure>
+                                {% if category.title_position == 'bottom' %}
+                                    <p>{{ category.title }}</p>
+                                {% endif %}
+                            </a>
+                        </div>
+                    </li>
+                {% endfor %}
+                {{ content }}
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+<form name="simple_form" id="simple_form" action="https://getsimpleform.com/messages?form_api_token={{ token | e('html_attr') }}" enctype="multipart/form-data" method="post" class="contact-form">
+    <fieldset>
+        <div class="coll-1">
+            <label for="simple_form-field-name">
+                <input type="text" id="simple_form-field-name" name="name" class="" placeholder="Name" value="" required="required" />
+            </label>
+        </div>
+        <div class="coll-2">
+            <label for="simple_form-field-email">
+                <input type="email" id="simple_form-field-email" name="email" class="" placeholder="E-mail" value="" required="required" />
+            </label>
+        </div>
+        <div class="coll-3">
+            <label for="simple_form-field-phone">
+                <input type="text" id="simple_form-field-phone" name="phone" class="" placeholder="Phone" value=""  />
+            </label>
+        </div>
+        <div class="coll-4">
+            <label for="simple_form-field-message">
+                <textarea id="simple_form-field-message" name="message" class="" placeholder="Message" required="required"></textarea>
+            </label>
+        </div>
+        <div class="coll-5">
+            <div class="buttons-wrapper clearfix">
+                <br />
+                <button id="simple_form-field-submit" name="submit" class="btn-link btn-link2">submit <span></span></button>
+            </div>
+        </div>
+    </fieldset>
+
+    {# Redirect URL after submit #}
+    <input type="hidden" name="redirect_to" value="{{ redirect_to | e('html_attr') }}" />
+</form>
