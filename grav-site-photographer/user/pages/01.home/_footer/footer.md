@@ -19,9 +19,9 @@ services:
 
  
 locations:
-  title: Locations
-  logo: smalllogo.png
-  text: 28 Jackson Blvd Ste 1020<br>Chicago<br>IL 60604-2340
-  email: info@demolink.org
+  title: Contact Us
+  logo: trident-banner.png
+  text: Core Team Email
+  email: core@project-trident.org
 
 ---
