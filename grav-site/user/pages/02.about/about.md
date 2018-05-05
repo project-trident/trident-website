@@ -1,12 +1,12 @@
 ---
-title: About
-menu: about me
+title: Features
+menu: Features
 onpage_menu: true
 work:
-  title: Download now
-  description: Try out Project Trident!
+  title: Quick Links
+  description: Additional Resources
   
-hiretitle: Download Now
+hiretitle: Downloads
 simple_form:
   token: "token-by-simpleform"
   template_file: "hire"

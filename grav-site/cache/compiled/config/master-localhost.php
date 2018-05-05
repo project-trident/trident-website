@@ -1,58 +1,62 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1525187979,
-    'checksum' => '98b184ed38912f3ff251cc1b51babb1b',
+    'timestamp' => 1525523756,
+    'checksum' => 'fcd9b11d67a1fa41728a6ef384bdd4f2',
     'files' => [
         'user/config' => [
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1525181558
+                'modified' => 1525520388
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1525181558
+                'modified' => 1525520388
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1525186203
+                'modified' => 1525520388
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1525181558
+                'modified' => 1525520388
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1525181558
+                'modified' => 1525520388
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1525181558
+                'modified' => 1525520388
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1525187706
+                'modified' => 1525520388
             ]
         ],
         'user/plugins' => [
+            'plugins/problems' => [
+                'file' => 'user/plugins/problems/problems.yaml',
+                'modified' => 1525520388
+            ],
             'plugins/blackhole' => [
                 'file' => 'user/plugins/blackhole/blackhole.yaml',
-                'modified' => 1523212663
+                'modified' => 1525520388
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1525181558
-            ],
-            'plugins/problems' => [
-                'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1525181558
+                'modified' => 1525520388
             ]
         ]
     ],
     'data' => [
         'plugins' => [
+            'problems' => [
+                'enabled' => true,
+                'built_in_css' => true
+            ],
             'blackhole' => [
                 'enabled' => true
             ],
@@ -61,10 +65,6 @@ return [
                 'routes' => [
                     404 => '/error'
                 ]
-            ],
-            'problems' => [
-                'enabled' => true,
-                'built_in_css' => true
             ]
         ],
         'media' => [

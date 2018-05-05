@@ -91,7 +91,7 @@ h3 {
 	font-family: 'Georgia', serif;
 	font-size: 12px;
 	line-height: 20px;
-	color: #4e4134;
+	color: #222222;
 	margin: 0 0 10px;
 	padding: 0;
 }
@@ -145,7 +145,7 @@ h3 {
 }
 .btn-link2 {
 	position: relative;
-	color: #eb5368;
+	color: #1a59c3;
 	font-family: 'Georgia', serif;
 	font-size: 15px;
 	line-height: 22px;
@@ -173,7 +173,7 @@ h3 {
 }
 .btn-link3 {
 	position: relative;
-	color: #eb5368;
+	color: #1a59c3;
 	font-family: 'Georgia', serif;
 	font-size: 18px;
 	line-height: 22px;
@@ -273,18 +273,18 @@ header {
 	z-index: 5;
 }
 .tm_navbar .nav li a:hover, .tm_navbar .nav > li.active > a, .tm_navbar .nav > li.active > a:hover {
-	color: #ffcbd2;
+	color: #1a59c3;
 	text-decoration: none;
 }
 .tm_navbar .nav > .active > a, .tm_navbar .nav > .active > a:hover, .tm_navbar .nav > .active > a:focus {
-	color: #ffcbd2;
+	color: #1a59c3;
 	background: transparent;
 }
 .tm_navbar .nav > li.sfHover.active > a .sf-sub-indicator, .tm_navbar .nav > li.active > a .sf-sub-indicator {
 	background-position: 0 0;
 }
 .tm_navbar .nav > li.sfHover > a, .tm_navbar .nav > li.sfHover > a:hover, .tm_navbar .nav > li > a:hover, .tm_navbar .nav > li.active > a, .tm_navbar .nav > li.active > a:hover {
-	color: #ffcbd2;
+	color: #1a59c3;
 	background: transparent;
 }
 /*---------submenu1-------------*/
@@ -298,7 +298,7 @@ header {
 	list-style: none;
 	zoom: 1;
 	z-index: 11;
-	background: #eb5368;
+	background: #1a59c3;
 	margin: 0;
 	text-align: center;
 }
@@ -375,7 +375,7 @@ header {
 	background: url(../img/dotted2.png) top center repeat-x;
 }
 .tm_navbar .nav ul ul li a {
-	color: #eb5368;
+	color: #1a59c3;
 	text-shadow: none;
 }
 .tm_navbar .nav ul ul li a:hover {
@@ -450,7 +450,7 @@ header {
 	transition: all 0.2s ease;
 }
 .box1 {
-	background: #eb5368;
+	background: #1a59c3;
 }
 .box1 figure {
 	width: 100%;
@@ -609,7 +609,7 @@ header {
 }
 .list2 > li > a:hover {
 	text-decoration: none;
-	color: #eb5368;
+	color: #1a59c3;
 	-webkit-transition: all 0.1s ease;
 	transition: all 0.1s ease;
 }
@@ -982,7 +982,7 @@ hr.line2 {
 	transition: all 0.1s ease;
 }
 .btn-link4:hover {
-	color: #eb5368;
+	color: #1a59c3;
 	text-decoration: none;
 	-webkit-transition: all 0.1s ease;
 	transition: all 0.1s ease;
@@ -1095,7 +1095,7 @@ address .info p:first-child {
 }
 .info a:hover {
 	text-decoration: none;
-	color: #eb5368;
+	color: #1a59c3;
 	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 }
@@ -1279,7 +1279,7 @@ address .info p:first-child {
 	color: #adadad;
 }
 .privacy_page a:hover {
-	color: #eb5368;
+	color: #1a59c3;
 }
 /*404 page*/
 /*404 page*/
@@ -1421,7 +1421,7 @@ footer {
 }
 .footerpriv a:hover {
 	text-decoration: none;
-	color: #eb5368;
+	color: #1a59c3;
 }
 /**************** footer end ***************/
 /*----- media queries ------*/
