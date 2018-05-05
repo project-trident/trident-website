@@ -1,43 +1,39 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1525202192,
-    'checksum' => '2a9b2a508a64f81fd41690e494fce188',
+    'timestamp' => 1525186419,
+    'checksum' => 'a5db89b934bd3086a061debf7529cefe',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1523570302
+                'modified' => 1525181558
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1523570302
+                'modified' => 1525181558
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1523570302
+                'modified' => 1525181558
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1523570302
+                'modified' => 1525181558
             ]
         ],
         'user/plugins' => [
-            'plugins/problems' => [
-                'file' => 'user/plugins/problems/blueprints.yaml',
-                'modified' => 1523570304
-            ],
-            'plugins/advanced-pagecache' => [
-                'file' => 'user/plugins/advanced-pagecache/blueprints.yaml',
-                'modified' => 1525201390
-            ],
             'plugins/blackhole' => [
                 'file' => 'user/plugins/blackhole/blueprints.yaml',
-                'modified' => 1525199492
+                'modified' => 1523212663
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
-                'modified' => 1523570303
+                'modified' => 1525181558
+            ],
+            'plugins/problems' => [
+                'file' => 'user/plugins/problems/blueprints.yaml',
+                'modified' => 1525181558
             ]
         ]
     ],
@@ -1743,7 +1739,7 @@ return [
                 'name' => 'system.advanced',
                 'validation' => 'loose'
             ],
-            'plugins.problems' => [
+            'plugins.blackhole' => [
                 'type' => '_root',
                 'form_field' => false,
                 'form' => [
@@ -1754,109 +1750,6 @@ return [
                 'type' => '_parent',
                 'name' => 'plugins',
                 'form_field' => false
-            ],
-            'plugins.problems.enabled' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.problems.enabled',
-                'validation' => 'strict'
-            ],
-            'plugins.problems.built_in_css' => [
-                'type' => 'toggle',
-                'label' => 'Use built in CSS',
-                'highlight' => 1,
-                'default' => 1,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.problems.built_in_css',
-                'validation' => 'strict'
-            ],
-            'plugins.advanced-pagecache' => [
-                'type' => '_root',
-                'form_field' => false,
-                'form' => [
-                    'validation' => 'strict'
-                ]
-            ],
-            'plugins.advanced-pagecache.enabled' => [
-                'type' => 'toggle',
-                'label' => 'Plugin Status',
-                'highlight' => 1,
-                'default' => 1,
-                'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.advanced-pagecache.enabled',
-                'validation' => 'strict'
-            ],
-            'plugins.advanced-pagecache.enabled_with_params' => [
-                'type' => 'toggle',
-                'label' => 'Enabled with Params',
-                'highlight' => 1,
-                'default' => 1,
-                'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.advanced-pagecache.enabled_with_params',
-                'validation' => 'strict'
-            ],
-            'plugins.advanced-pagecache.enabled_with_query' => [
-                'type' => 'toggle',
-                'label' => 'Enabled with Query',
-                'highlight' => 1,
-                'default' => 1,
-                'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.advanced-pagecache.enabled_with_query',
-                'validation' => 'strict'
-            ],
-            'plugins.advanced-pagecache.whitelist' => [
-                'type' => 'array',
-                'value_only' => true,
-                'label' => 'Whitelist',
-                'name' => 'plugins.advanced-pagecache.whitelist',
-                'validation' => 'strict'
-            ],
-            'plugins.advanced-pagecache.blacklist' => [
-                'type' => 'array',
-                'value_only' => true,
-                'label' => 'Blacklist',
-                'name' => 'plugins.advanced-pagecache.blacklist',
-                'validation' => 'strict'
-            ],
-            'plugins.blackhole' => [
-                'type' => '_root',
-                'form_field' => false,
-                'form' => [
-                    'validation' => 'strict'
-                ]
             ],
             'plugins.blackhole.generate' => [
                 'type' => 'fieldset',
@@ -1981,6 +1874,43 @@ return [
                 'label' => '404 Route',
                 'default' => '/error',
                 'name' => 'plugins.error.routes.404',
+                'validation' => 'strict'
+            ],
+            'plugins.problems' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.problems.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.problems.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.problems.built_in_css' => [
+                'type' => 'toggle',
+                'label' => 'Use built in CSS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.problems.built_in_css',
                 'validation' => 'strict'
             ]
         ],
@@ -2175,17 +2105,6 @@ return [
                 'custom_base_url' => 'system.custom_base_url'
             ],
             'plugins' => [
-                'problems' => [
-                    'enabled' => 'plugins.problems.enabled',
-                    'built_in_css' => 'plugins.problems.built_in_css'
-                ],
-                'advanced-pagecache' => [
-                    'enabled' => 'plugins.advanced-pagecache.enabled',
-                    'enabled_with_params' => 'plugins.advanced-pagecache.enabled_with_params',
-                    'enabled_with_query' => 'plugins.advanced-pagecache.enabled_with_query',
-                    'whitelist' => 'plugins.advanced-pagecache.whitelist',
-                    'blacklist' => 'plugins.advanced-pagecache.blacklist'
-                ],
                 'blackhole' => [
                     'generate' => [
                         'output_url' => 'plugins.blackhole.generate.output_url',
@@ -2203,6 +2122,10 @@ return [
                     'routes' => [
                         404 => 'plugins.error.routes.404'
                     ]
+                ],
+                'problems' => [
+                    'enabled' => 'plugins.problems.enabled',
+                    'built_in_css' => 'plugins.problems.built_in_css'
                 ]
             ]
         ],

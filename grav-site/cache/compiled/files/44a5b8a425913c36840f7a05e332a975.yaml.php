@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/usr/home/kenmoore/Trident/trident-website/grav-site/user/config/system.yaml',
-    'modified' => 1525201390,
+    'modified' => 1525186203,
     'data' => [
         'home' => [
             'alias' => '/home'
         ],
         'pages' => [
-            'theme' => 'woo',
+            'theme' => 'photographer',
             'process' => [
                 'markdown' => true,
                 'twig' => false

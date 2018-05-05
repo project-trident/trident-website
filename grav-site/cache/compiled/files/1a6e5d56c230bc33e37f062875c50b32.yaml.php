@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/usr/home/kenmoore/Trident/trident-website/grav-site/system/config/site.yaml',
-    'modified' => 1523570302,
+    'modified' => 1525181558,
     'data' => [
         'title' => 'Grav',
         'default_lang' => 'en',

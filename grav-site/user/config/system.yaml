@@ -2,11 +2,11 @@ home:
   alias: '/home'
 
 pages:
-  theme: woo
+  theme: photographer
   process:
     markdown: true
     twig: false
-  markdown: 
+  markdown:
     extra: true  
 
 cache:

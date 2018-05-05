@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/usr/home/kenmoore/Trident/trident-website/grav-site/user/plugins/error/blueprints.yaml',
-    'modified' => 1523570303,
+    'modified' => 1525181558,
     'data' => [
         'name' => 'Error',
         'version' => '1.6.1',

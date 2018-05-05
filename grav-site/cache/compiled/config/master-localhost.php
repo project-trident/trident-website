@@ -1,76 +1,58 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1525202192,
-    'checksum' => 'a2e2f93bfb7f2fef062f75d12d43ecea',
+    'timestamp' => 1525187979,
+    'checksum' => '98b184ed38912f3ff251cc1b51babb1b',
     'files' => [
         'user/config' => [
-            'plugins/simple_form' => [
-                'file' => 'user/config/plugins/simple_form.yaml',
-                'modified' => 1523570302
+            'security' => [
+                'file' => 'user/config/security.yaml',
+                'modified' => 1525181558
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1523570302
+                'modified' => 1525181558
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1525201390
+                'modified' => 1525186203
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1523570302
+                'modified' => 1525181558
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1523570302
+                'modified' => 1525181558
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1523570302
+                'modified' => 1525181558
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1525199643
+                'modified' => 1525187706
             ]
         ],
         'user/plugins' => [
-            'plugins/problems' => [
-                'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1523570304
-            ],
-            'plugins/advanced-pagecache' => [
-                'file' => 'user/plugins/advanced-pagecache/advanced-pagecache.yaml',
-                'modified' => 1525201390
-            ],
             'plugins/blackhole' => [
                 'file' => 'user/plugins/blackhole/blackhole.yaml',
-                'modified' => 1525199492
+                'modified' => 1523212663
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1523570303
+                'modified' => 1525181558
+            ],
+            'plugins/problems' => [
+                'file' => 'user/plugins/problems/problems.yaml',
+                'modified' => 1525181558
             ]
         ]
     ],
     'data' => [
         'plugins' => [
-            'problems' => [
-                'enabled' => true,
-                'built_in_css' => true
-            ],
-            'advanced-pagecache' => [
-                'enabled' => true,
-                'enabled_with_params' => true,
-                'enabled_with_query' => true,
-                'whitelist' => false,
-                'blacklist' => [
-                    0 => '/error',
-                    1 => '/random'
-                ]
-            ],
             'blackhole' => [
                 'enabled' => true
             ],
@@ -80,14 +62,9 @@ return [
                     404 => '/error'
                 ]
             ],
-            'simple_form' => [
+            'problems' => [
                 'enabled' => true,
-                'token' => '',
-                'template_file' => 'simple_form',
-                'fields' => NULL,
-                'messages' => [
-                    'success' => 'Your message has been sent.'
-                ]
+                'built_in_css' => true
             ]
         ],
         'media' => [
@@ -357,7 +334,7 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Woo',
+            'title' => 'Photographer',
             'default_lang' => 'en',
             'author' => [
                 'name' => 'Joe Bloggs',
@@ -368,7 +345,7 @@ return [
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Woo is a free and responsive theme for **Grav**. Its a port of Woo template by Styleshout.'
+                'description' => 'Bootstrap 3.0 template by Template-help.com, ported to Grav.'
             ],
             'summary' => [
                 'enabled' => true,
@@ -386,72 +363,59 @@ return [
             'social' => [
                 0 => [
                     'url' => '#',
-                    'icon' => 'facebook'
+                    'icon' => 'facebook.png'
                 ],
                 1 => [
                     'url' => '#',
-                    'icon' => 'twitter'
+                    'icon' => 'gplus.png'
                 ],
                 2 => [
                     'url' => '#',
-                    'icon' => 'google-plus'
+                    'icon' => 'twitter.png'
+                ],
+                3 => [
+                    'url' => '#',
+                    'icon' => 'rss.png'
                 ]
+            ],
+            'copyright' => [
+                'line1' => 'Untitled',
+                'line2' => 'Design:',
+                'url' => 'http://html5up.net',
+                'url_label' => 'HTML5 UP'
+            ],
+            'logo' => [
+                'text1' => 'Photographer',
+                'text2' => 'by HTML5 UP'
             ],
             'menu' => [
                 0 => [
-                    'text' => 'Features',
-                    'link' => '#features'
-                ],
-                1 => [
-                    'text' => 'Pricing',
-                    'link' => '#pricing'
-                ],
-                2 => [
-                    'text' => 'Screenshots',
-                    'link' => '#screenshots'
-                ],
-                3 => [
-                    'text' => 'Testimonials',
-                    'link' => '#testimonials'
-                ],
-                4 => [
-                    'text' => 'Subscribe',
-                    'link' => '#subscribe'
-                ]
-            ],
-            'footer' => [
-                'text' => 'This is Photoshop\'s version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.',
-                'address' => [
-                    'title' => 'COME VISIT',
-                    'lines' => [
+                    'text' => 'submenu',
+                    'submenu' => [
                         0 => [
-                            'line' => '1600 Amphitheatre Parkway'
+                            'text' => 'info',
+                            'link' => '#'
                         ],
                         1 => [
-                            'line' => 'Mountain View, CA'
+                            'text' => 'profile',
+                            'link' => '#'
                         ],
                         2 => [
-                            'line' => '94043 US'
+                            'text' => 'news',
+                            'link' => '#',
+                            'submenu' => [
+                                0 => [
+                                    'text' => 'fresh',
+                                    'link' => '#'
+                                ],
+                                1 => [
+                                    'text' => 'archive',
+                                    'link' => '#'
+                                ]
+                            ]
                         ]
-                    ]
-                ],
-                'social_title' => 'Socialize',
-                'contact' => [
-                    'title' => 'CONTACT US',
-                    'lines' => [
-                        0 => [
-                            'text' => '647.343.8234',
-                            'url' => '#'
-                        ],
-                        1 => [
-                            'text' => '123.456.7890',
-                            'url' => '#'
-                        ],
-                        2 => [
-                            'text' => 'someone@woosite.com',
-                            'url' => 'mailto:someone@woosite.com'
-                        ]
-                    ]
+                    ],
+                    'link' => '#'
                 ]
             ]
         ],
@@ -507,7 +471,7 @@ return [
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'woo',
+                'theme' => 'photographer',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
@@ -662,6 +626,9 @@ return [
                 'verify_peer' => true,
                 'official_gpm_only' => true
             ]
+        ],
+        'security' => [
+            'salt' => 'lcZeTPmSRn0yLN'
         ]
     ]
 ];

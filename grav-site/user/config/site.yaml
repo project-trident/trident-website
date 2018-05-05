@@ -1,9 +1,9 @@
-title: Woo
+title: Photographer
 author:
   name: Joe Bloggs
   email: 'joe@test.com'
 metadata:
-    description: 'Woo is a free and responsive theme for **Grav**. Its a port of Woo template by Styleshout.'
+    description: 'Bootstrap 3.0 template by Template-help.com, ported to Grav.'
     
 # Site settings
 title: Awesome Title
@@ -13,40 +13,37 @@ description: "Write an awesome description for your new site here. You can edit 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   -  url: "#"
-     icon: facebook
+     icon: facebook.png
   -  url: "#"
-     icon: twitter
+     icon: gplus.png
   -  url: "#"
-     icon: google-plus  
+     icon: twitter.png
+  -  url: "#"
+     icon: rss.png    
+
+copyright: 
+  line1: Untitled
+  line2: Design:
+  url: http://html5up.net
+  url_label: HTML5 UP
+    
+logo:
+  text1: "Photographer"
+  text2: "by HTML5 UP"
 
 # Main Menu
 menu:
-  - text: Features
-    link: "#features"
-  - text: Pricing
-    link: "#pricing"
-  - text: Screenshots
-    link: "#screenshots"
-  - text: Testimonials
-    link: "#testimonials"
-  - text: Subscribe
-    link: "#subscribe"    
-
-footer: 
-  text: "This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris."
-  address:
-    title: COME VISIT
-    lines:
-      - line: 1600 Amphitheatre Parkway
-      - line: Mountain View, CA
-      - line: 94043 US 
-  social_title: Socialize
-  contact:
-    title: CONTACT US
-    lines:
-      - text: 647.343.8234
-        url: "#"
-      - text: 123.456.7890
-        url: "#" 
-      - text: someone@woosite.com
-        url: "mailto:someone@woosite.com"    
+  - text: "submenu"
+    submenu:
+      - text: "info"
+        link: "#"
+      - text: "profile"
+        link: "#"  
+      - text: "news"
+        link: "#"
+        submenu:
+          - text: "fresh"
+            link: "#"
+          - text: "archive"
+            link: "#"  
+    link: "#" 

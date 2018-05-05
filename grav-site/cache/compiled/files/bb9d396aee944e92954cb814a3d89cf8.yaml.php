@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/usr/home/kenmoore/Trident/trident-website/grav-site/system/config/streams.yaml',
-    'modified' => 1523570302,
+    'modified' => 1525181558,
     'data' => [
         'schemes' => [
             'image' => [
