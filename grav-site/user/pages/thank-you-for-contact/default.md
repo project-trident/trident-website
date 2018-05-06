@@ -1,3 +1,3 @@
-title: Thank you for contact us
+title: Thank you for contacting us
 ---
-##Thank you for contact us!
+##Thank you for contacting us!

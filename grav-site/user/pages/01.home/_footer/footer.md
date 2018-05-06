@@ -1,6 +1,6 @@
 ---
 about:
-  title: Browse the Sources
+  title: Open Source
   title2: 
   image: trident-head.png
   text: Browse all of the sources for Project Trident
@@ -8,8 +8,6 @@ about:
   readme_text: read more
 services_title: Quick Links  
 services:
-  - text: Project Trident Sources
-    url: "https://github.com/project-trident"
   - text: Telegram Chat
     url: "https://t.me/TrueOSCommunity"
   - text: TrueOS Forums
@@ -21,7 +19,7 @@ services:
 locations:
   title: Contact Us
   logo: trident-banner.png
-  text: Core Team Email
+  text: 
   email: core@project-trident.org
 
 ---
