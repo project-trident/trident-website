@@ -1,14 +1,14 @@
-title: Photographer
+title: Project Trident
 author:
-  name: Joe Bloggs
-  email: 'joe@test.com'
+  name: Project Trident Team
+  email: 'core@project-trident.org'
 metadata:
     description: 'Bootstrap 3.0 template by Template-help.com, ported to Grav.'
     
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Project Trident
+email: core@project-trident.org
+description: "Project Trident is a secure and reliable desktop-based operating system"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
