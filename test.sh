@@ -19,5 +19,6 @@ done
 origdir=${PWD}
 cd grav-site
 /usr/local/bin/php -S localhost:8000 system/router.php
+# test finished, go ahead and clear the cache files
+bin/grav clear
 cd "${origdir}"
-
