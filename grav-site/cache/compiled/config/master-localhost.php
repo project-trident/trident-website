@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1525523756,
-    'checksum' => 'fcd9b11d67a1fa41728a6ef384bdd4f2',
+    'timestamp' => 1525617493,
+    'checksum' => 'bea8c28d3fef05a9aa9e6d9286fa28f3',
     'files' => [
         'user/config' => [
             'security' => [
@@ -11,7 +11,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1525520388
+                'modified' => 1525617245
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
@@ -334,11 +334,11 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Photographer',
+            'title' => 'Project Trident',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@test.com'
+                'name' => 'Project Trident Team',
+                'email' => 'core@project-trident.org'
             ],
             'taxonomies' => [
                 0 => 'category',
@@ -358,8 +358,8 @@ return [
             'blog' => [
                 'route' => '/blog'
             ],
-            'email' => 'your-email@domain.com',
-            'description' => 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.',
+            'email' => 'core@project-trident.org',
+            'description' => 'Project Trident is a secure and reliable desktop-based operating system',
             'social' => [
                 0 => [
                     'url' => '#',
