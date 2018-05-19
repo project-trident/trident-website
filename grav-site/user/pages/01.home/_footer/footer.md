@@ -2,7 +2,7 @@
 about:
   title: Open Source
   title2: 
-  image: trident-head.png
+  image: open-source.svg
   text: Browse all of the sources for Project Trident
   readme_url: "https://github.com/project-trident"
   readme_text: read more
@@ -18,7 +18,7 @@ services:
  
 locations:
   title: Contact Us
-  logo: trident-banner.png
+  logo: trident-banner.svg
   text: 
   email: core@project-trident.org
 

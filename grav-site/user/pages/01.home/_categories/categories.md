@@ -1,15 +1,15 @@
 ---
 categories:
-    - image: trident-head.png
+    - image: lock.svg
       class: box1
-      title: Secure
+      title: Security
       title_position: bottom 
-    - image: trident-head.png
+    - image: lightning.svg
       class: box2
-      title: Reliable
+      title: Reliability
       title_position: top
-    - image: trident-head.png
+    - image: eye-blocked.svg
       class: box3
-      title: Open-Source
+      title: Privacy
       title_position: bottom      
 ---
