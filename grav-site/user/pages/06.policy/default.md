@@ -23,7 +23,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 ```
 
 ## Community Rules of Conduct
-Participation in the community channels and developer chats is governed by a very simple principal: keep it professional. Failure to abide by this simple rule may result in a moderator asking you to voluntarily leave, a temporary ban, or a permanent ban as the situation demands. The full text of the rules of conduct are reproduced here for reference.
+Participation in the community channels and developer chats is governed by a very simple principle: keep it professional. Failure to abide by this simple rule may result in a moderator asking you to voluntarily leave, a temporary ban, or a permanent ban as the situation demands. The full text of the rules of conduct are reproduced here for reference.
 
 ```
  - Insert ROC here -
@@ -49,4 +49,3 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 
 E-mail: [core@project-trident.org](mailto:core@project-trident.org)
 </div> 
-
