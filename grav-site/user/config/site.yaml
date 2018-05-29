@@ -14,8 +14,8 @@ description: "Project Trident is a secure and reliable desktop-based operating s
 social:
   -  url: "#"
      icon: facebook.png
-  -  url: "#"
-     icon: gplus.png
+  -  url: "https://www.reddit.com/r/projecttrident/"
+     icon: reddit.png
   -  url: "https://twitter.com/TridentProject"
      icon: twitter.png
   -  url: "#"
@@ -28,22 +28,12 @@ copyright:
   url_label: HTML5 UP
     
 logo:
-  text1: "Photographer"
-  text2: "by HTML5 UP"
+  text1: "Project Trident"
+  text2: ""
 
 # Main Menu
 menu:
-  - text: "submenu"
+  - text: "More"
     submenu:
-      - text: "info"
-        link: "#"
-      - text: "profile"
-        link: "#"  
-      - text: "news"
-        link: "#"
-        submenu:
-          - text: "fresh"
-            link: "#"
-          - text: "archive"
-            link: "#"  
-    link: "#" 
+      - text: "FAQ"
+        link: "/faq"
