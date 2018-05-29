@@ -25,4 +25,4 @@ friendlinks:
     url: "https://gab.ai/ProjectTrident"                
 ---
 
-For information about Enterprise-level sponsorships, please contact the [Project Trident Core Team]("mailto:core@project-trident.org").
+For information about Enterprise-level sponsorships, please contact the [Project Trident Core Team](mailto:core@project-trident.org).
