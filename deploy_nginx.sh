@@ -14,19 +14,23 @@ fi
 echo "Copying website over to distribution dir: ${DIST_DIR}"
 
 #Make sure all the required packages are installed first
+#Make sure all the required packages are installed first
 for _pkg in nginx `cat pkg_list`
 do
   echo "Checking for Package: ${_pkg}"
   pkg info -qe  "${_pkg}"
   if [ $? -eq 1 ] ; then
-    echo "Installing Required Package: ${_pkg}"
-    pkg install "${_pkg}"
-    if [ $? -ne 0 ] ; then
-      echo "[ERROR] Unable to install package: ${_pkg}"
-      exit 1
-    fi
+    _pkg_needed="${_pkg_needed} ${_pkg}"
   fi
 done
+if [ -n "${_pkg_needed}" ] ; then
+echo "Installing Required Packages: ${_pkg_needed}"
+    sudo pkg install "${_pkg_needed}"
+    if [ $? -ne 0 ] ; then
+      echo "[ERROR] Unable to install packages: ${_pkg_needed}"
+      exit 1
+    fi
+fi
 
 #Move the site files over to the publication directory
 if [ -d "${DIST_DIR}" ] ; then

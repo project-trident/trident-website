@@ -17,7 +17,7 @@ ${CMD_PREFIX} ./deploy_nginx.sh
 # Build the site
 origdir="${PWD}"
 cd grav-site
-bin/plugin blackhole generate --force "http://localhost" --output-path "../${BUILD_DIR}" --output-url "http://${FINAL_SITE}" 
+bin/plugin blackhole generate --force "http://localhost" --output-path "../${BUILD_DIR}" #--output-url "http://${FINAL_SITE}" 
 
 cd "${origdir}"
 
