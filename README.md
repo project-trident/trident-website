@@ -15,6 +15,6 @@ Run `./test.sh` to spin up a [local version of the website](http://localhost:800
 
 ## Site Modification
 Locations of files (relative to root of repository):
-* Overall Site Configuration: grav-site/user/config
-* Individual Pages: grav-site/user/pages
-* Images: grav-site/user/themes/photographer/img
+* Overall Site Configuration (and social-media links): grav-site/user/config
+* Individual Pages: grav-site/user/pages (images for specific pages are in the same page dir)
+* Theme Images (footer, header, social-media icons): grav-site/user/themes/photographer/img
