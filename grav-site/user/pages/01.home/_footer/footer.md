@@ -18,7 +18,7 @@ services:
  
 locations:
   title: Contact Us
-  logo: trident-banner.svg
+  logo:
   text: 
   email: core@project-trident.org
 

@@ -24,3 +24,7 @@ fi
 
 #Put the entry into crontab for running this on the designated schedule
 echo "*/${update_minutes}	*	*	*	*	root ${current_dir}/${update_script}" >> /etc/crontab
+
+#Now run the deploy script that the update script will also run
+script=grep "script_run=" "${update_script}" | cut -d = -f 2
+${script}

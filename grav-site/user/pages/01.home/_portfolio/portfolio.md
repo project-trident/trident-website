@@ -1,31 +1,31 @@
 ---
 portfolio:
-    - image: trident-head.png
+    - image: features.svg
       class: box4
       title1: Features
       title2: 
       title3: 
-      linkurl: "#"
+      linkurl: "/features"
       linktext: "learn more"
-    - image: trident-head.png
+    - image: download.svg
       class: box4
       title1: Downloads
       title2: View installation media
       title3: 
-      linkurl: "#"
-      linktext: "learn more"
-    - image: trident-head.png
+      linkurl: "/downloads"
+      linktext: "View Current Releases"
+    - image: screenshots.svg
       class: box4
       title1: Screenshots
       title2: View previews of systems
       title3: 
-      linkurl: "#"
+      linkurl: "/screenshots"
       linktext: "learn more"
-    - image: trident-head.png
+    - image: handbook.svg
       class: box4
       title1: Documentation
-      title2: Read the docs!
+      title2: Coming Soon!
       title3: 
       linkurl: "#"
-      linktext: "learn more"    
+      linktext: "Coming Soon!"    
 ---
