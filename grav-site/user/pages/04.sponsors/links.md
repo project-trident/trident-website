@@ -8,7 +8,7 @@ links:
   - text: iXsystems
     image: ixsystems.png
     url: "https://www.ixsystems.com/"
-    description: Enterprise storage and servers, powered by open source.
+    description: Enterprise storage and servers, powered by Open Source.
 
 friendlinks:
   - text: Paypal
@@ -16,4 +16,4 @@ friendlinks:
           
 ---
 
-For information about Enterprise-level sponsorships, please contact the [Project Trident Core Team](mailto:core@project-trident.org).
+For information about Enterprise-level sponsorships, please [contact the Project Trident Core Team](mailto:core@project-trident.org).
