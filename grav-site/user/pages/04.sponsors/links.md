@@ -12,7 +12,7 @@ links:
 
 friendlinks:
   - text: Paypal
-    url: "#"
+    url: "https://paypal.me/ProjectTrident/5"
           
 ---
 

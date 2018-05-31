@@ -12,14 +12,12 @@ description: "Project Trident is a secure and reliable desktop-based operating s
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  -  url: "#"
-     icon: facebook.png
+  -  url: "https://www.twitch.tv/thetridentproject"
+     icon: twitch.png
   -  url: "https://www.reddit.com/r/projecttrident/"
      icon: reddit.png
   -  url: "https://twitter.com/TridentProject"
      icon: twitter.png
-  -  url: "#"
-     icon: rss.png    
 
 copyright: 
   line1: Untitled
@@ -37,3 +35,5 @@ menu:
     submenu:
       - text: "FAQ"
         link: "/faq"
+      - text: "Forums"
+        link: "https://discourse.trueos.org"

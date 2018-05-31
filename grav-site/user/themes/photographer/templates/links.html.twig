@@ -14,8 +14,8 @@
                                   {% for link in row %}
                                     <h3><a class="btn-link4" href="{{ link.url }}">
 					<img src="{{ page.media[link.image].url }}" alt="{{ link.text }}" </img>
-				  </a></h3>
                                     <p>{{ link.description }}</p>
+				  </a></h3>
                                   {% endfor %}
                             </div>
                         {% endfor %}
