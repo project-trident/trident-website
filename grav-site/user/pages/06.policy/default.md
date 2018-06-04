@@ -21,10 +21,8 @@ All software created by Project Trident is available under either the 2-clause o
 > THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## Community Rules of Conduct
-Participation in the community channels and developer chats is governed by a very simple principle: keep it professional. Failure to abide by this simple rule may result in a moderator asking you to voluntarily leave, a temporary ban, or a permanent ban as the situation demands. The full text of the rules of conduct are reproduced here for reference.
-
-
-> - Insert ROC here -
+> Project Trident expects everyone to conduct themselves professionally and respectfully.  
+> If you need assistance relating to conduct of another member of the community, please [contact us at core@project-trident.org](mailto:core@project-trident.org).
 
 
 ## Website Terms Of Use
