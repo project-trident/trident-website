@@ -1,8 +1,8 @@
 ---
-title: FAQ Now available!
+title: FAQ now available!
 description:
 buttons:
-    - text: Read More
+    - text: "Read"
       url: '/faq'
       class: btn btn-default btn-lg btn1      
 ---

@@ -1,6 +1,6 @@
 ---
-title: Enterprise Sponsors
-title2: Become a Sponsor!
+title: Enterprise-level Sponsors
+title2: Donate Today!
 menu: Sponsors
 onpage_menu: true
 
@@ -11,7 +11,7 @@ links:
     description: Enterprise storage and servers, powered by Open Source.
 
 friendlinks:
-  - text: Paypal (Quick Donation)
+  - text: Fast $5 (PayPal)
     url: "https://paypal.me/ProjectTrident/5"
           
 ---
