@@ -1,8 +1,8 @@
 ---
-title: Coming Soon!
-description: TBA
+title: FAQ Now available!
+description:
 buttons:
-    - text: more
-      url: '#'
+    - text: Read More
+      url: '/faq'
       class: btn btn-default btn-lg btn1      
 ---

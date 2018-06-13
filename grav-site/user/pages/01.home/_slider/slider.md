@@ -1,8 +1,8 @@
 ---
-title: Coming Soon!
-description: Project Trident: Coming Soon!!
+title: FAQ now available!
+description: FAQ for Project Trident now available!
 buttons:
-    - text: more
-      url: '#'
+    - text: "Read More"
+      url: '/faq'
       class: btn btn-default btn-lg btn1      
 ---

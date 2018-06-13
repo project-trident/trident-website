@@ -32,4 +32,4 @@ Project Trident does have very close ties to the TrueOS project, since most of t
 A: As long as you have a TrueOS system which has been updated to at least the 18.03 release you should be able to just perform a system update to be automatically upgraded to Project Trident.
 
 ## Q: Which members moved from TrueOS to Project Trident?
-A: Project Trident is being led by prior members of the TrueOS desktop team. Ken Moore and JT Pennington (development), Tim Moore (documentation) and Rod Myers (Community/Support). Since Project Trident is a community-first project, we look forward to working with new members of the team.
+A: Project Trident is being led by prior members of the TrueOS desktop team. Ken and JT (development), Tim (documentation) and Rod (Community/Support). Since Project Trident is a community-first project, we look forward to working with new members of the team.
