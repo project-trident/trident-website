@@ -1,0 +1,10 @@
+{{ range ( where .Site.Pages.ByWeight "Section" (.Get 0) ) }}
+	{{ if .IsPage }}
+	<article>
+		<div>
+			<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+			<b><i>{{ .Description }}</i></b>
+		</div>
+	</article>
+	{{ end }}
+{{ end }}

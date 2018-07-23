@@ -1,0 +1,12 @@
+{{ range first ( .Get 0 ) (where .Site.Pages.ByDate.Reverse "Section" "post") }}
+	{{ if .IsPage }}
+	<article>
+		<div>
+			<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+			<p><i>{{ .Date.Format "2006-01-02" }}<i></p>
+			{{ .Summary }}...
+
+		</div>
+	</article>
+	{{ end }}
+{{ end }}
