@@ -3,7 +3,7 @@
 STATIC_DIR="$1"
 DIST_DIR="$2"
 PROFILE_NAME="trident"
-FINAL_SITE="localhost" #project-trident.org"
+FINAL_SITE="project-trident.org"
 
 if [ -z "${STATIC_DIR}" ] ; then
   STATIC_DIR="static_build"
