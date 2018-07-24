@@ -1,13 +1,1 @@
-php56
-php56-mbstring
-php56-ctype
-php56-json
-php56-session
-php56-filter
-php56-gd
-php56-dom
-php56-hash
-php56-curl
-php56-openssl
-php56-xml
-php56-zip
+gohugo

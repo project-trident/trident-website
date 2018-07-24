@@ -25,29 +25,36 @@ do
 done
 if [ -n "${_pkg_needed}" ] ; then
 echo "Installing Required Packages: ${_pkg_needed}"
-    sudo pkg install "${_pkg_needed}"
+    sudo pkg install -y ${_pkg_needed}
     if [ $? -ne 0 ] ; then
       echo "[ERROR] Unable to install packages: ${_pkg_needed}"
       exit 1
     fi
 fi
 
+
 #Move the site files over to the publication directory
 if [ -d "${DIST_DIR}" ] ; then
   rm -r "${DIST_DIR}"
 fi
-cp -R grav-site "${DIST_DIR}"
-chown -R www:www "${DIST_DIR}"
+sh deploy_hugo.sh
+
+exit $?
+
+# Old Grav install routine
+# ===============
+#cp -R grav-site "${DIST_DIR}"
+#chown -R www:www "${DIST_DIR}"
 #Setup the nginx profile settings
-nginx_config="/usr/local/etc/nginx-${PROFILE_NAME}.conf"
-cp "nginx-live.conf" "${nginx_config}"
-sed -i conf "s|%%ROOT_DIR%%|${DIST_DIR}|g" "${nginx_config}"
+#nginx_config="/usr/local/etc/nginx-${PROFILE_NAME}.conf"
+#cp "nginx-live.conf" "${nginx_config}"
+#sed -i conf "s|%%ROOT_DIR%%|${DIST_DIR}|g" "${nginx_config}"
 
-sysrc nginx_config="${nginx_config}"
-sysrc nginx_profiles+=" ${PROFILE_NAME}"
-sysrc nginx_${PROFILE_NAME}_configfile="${nginx_config}"
+#sysrc nginx_config="${nginx_config}"
+#sysrc nginx_profiles+=" ${PROFILE_NAME}"
+#sysrc nginx_${PROFILE_NAME}_configfile="${nginx_config}"
 
-sysrc rc_nginx_need="php-fpm"
+#sysrc rc_nginx_need="php-fpm"
 
 #Now start the webserver
-service nginx restart
+#service nginx restart
