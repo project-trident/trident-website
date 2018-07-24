@@ -1,8 +1,8 @@
 +++
-title = "New Website"
+title = "New Website Available"
 menutitle = "New Website Available"
 description = "Announcing the new website"
-date = "2018-07-23"
+date = "2018-07-24"
 draft = false
 pre = "<i class='fa fa-desktop'></i>	"
 +++

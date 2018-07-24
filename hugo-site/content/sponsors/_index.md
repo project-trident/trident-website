@@ -16,13 +16,12 @@ pre: "<i class='fa fa-gift'></i>	"
 ---
 ## Become a Sponsor
 
+#### Monetary sponsorship
 {{< donate >}}
 
-### Additional Sponsorship Opportunities
-*[Contact the Project Trident Core Team](mailto:core@project-trident.org) to discuss additional opportunities*
-
+#### Effort-based sponsorship
 * Forum Software Hosting
 * [Artwork or other design details](http://github.com/project-trident/trident-artwork)
 * [Website design and improvement](http://github.com/project-trident/trident-website)
 
-
+*[Contact the Project Trident Core Team](mailto:core@project-trident.org) to discuss additional opportunities*

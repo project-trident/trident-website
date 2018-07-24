@@ -126,9 +126,10 @@ a:hover {
 
 .align-row{
 	display: -webkit-flex;
-	-webkit-align-items: right;
+	-webkit-align-items: left;
 	display: flex;
-	align-items: right;
+	align-items: left;
+	width: 100%;
 }
 
 #footer {
@@ -140,16 +141,18 @@ a:hover {
 	background-color: var(--MENU-SECTIONS-BG-color);
 	margin-left: auto;
 	margin-right: auto;
-	padding: 3px;
+	padding: 5px;
 	width: 100%;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	cursor: arrow;
 }
 
 .blogpost {
-	position: relative;
 	text-align: left;
 	color: var(--MENU-SECTIONS-FG-color);
 	background-color: var(--MENU-SECTIONS-BG-color);
 	border-color: var(--MAIN-LINK-color);
+	border-radius: 1ex;
+	padding: 1ex;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }

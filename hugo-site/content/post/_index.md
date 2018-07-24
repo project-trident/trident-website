@@ -1,10 +1,10 @@
 +++
 title = "Articles"
-menutitle = "Latest Articles"
+menutitle = "Articles"
 chapter = false
 weight = 10
 pre = "<i class='fa fa-rss'></i>	"
 +++
 
-### All Articles: Newest on top
+### All Articles: Newest first
 {{< recent-articles 100 >}}
