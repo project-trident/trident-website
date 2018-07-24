@@ -18,4 +18,10 @@ result=`git pull | grep "Already up to date"`
 if [ -z "${result}" ] ; then
   echo "Repo updated: Running Script ${script_run}"
   ./${script_run}
+else
+  #Verify that the nginx service is still running, and restart as needed
+  service nginx status
+  if [ $? -ne 0 ] ; then
+    service nginx restart
+  fi
 fi
