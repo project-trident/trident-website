@@ -1,13 +1,9 @@
 #!/bin/sh
 #Script to take the statically-generated pages and deploy them with nginx
-STATIC_DIR="$1"
-DIST_DIR="$2"
+DIST_DIR="$1"
 PROFILE_NAME="trident"
 FINAL_SITE="project-trident.org"
 
-if [ -z "${STATIC_DIR}" ] ; then
-  STATIC_DIR="static_build"
-fi
 if [ -z "${DIST_DIR}" ] ; then
   DIST_DIR="/usr/local/www/${PROFILE_NAME}"
 fi

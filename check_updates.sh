@@ -9,15 +9,13 @@
 script_run="deploy_nginx.sh"
 
 current_dir=`dirname "$0"`
-if [ ! "." = "${current_dir}" ] ; then
-  cd "${current_dir}"
-fi
-
 #See if the current repo has any updates available
 result=`git pull | grep "Already up to date"`
 if [ -z "${result}" ] ; then
+  cd "${current_dir}"
   echo "Repo updated: Running Script ${script_run}"
-  ./${script_run}
+  #Do not use the "." shortcut - git pull can destroy/recreate that dir link
+  ${current_dir}/${script_run}
 else
   #Verify that the nginx service is still running, and restart as needed
   service nginx status
