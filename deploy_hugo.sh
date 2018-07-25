@@ -16,7 +16,8 @@ fi
 if [ -d "${DIST_DIR}" ] ; then
   ${CMD_PREFIX} rm -rf "${DIST_DIR}"
 fi
-cd hugo-site
+basedir=`dirname $0`
+cd "${basedir}/hugo-site"
 ${CMD_PREFIX} /usr/local/bin/hugo -b "http://${FINAL_SITE}" -d "${DIST_DIR}"
 cd ..
 ${CMD_PREFIX} chown -R www:www "${DIST_DIR}"
