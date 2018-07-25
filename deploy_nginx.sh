@@ -11,6 +11,8 @@ if [ 0 -ne `id -u` ] ; then
   exit 1
 fi
 
+cdir=`dirname $0`
+cd "${cdir}"
 echo "Copying website over to distribution dir: ${DIST_DIR}"
 
 #Make sure all the required packages are installed first
@@ -32,11 +34,7 @@ echo "Installing Required Packages: ${_pkg_needed}"
     fi
 fi
 
-
 #Move the site files over to the publication directory
-if [ -d "${DIST_DIR}" ] ; then
-  rm -r "${DIST_DIR}"
-fi
 sh deploy_hugo.sh
 
 exit $?
