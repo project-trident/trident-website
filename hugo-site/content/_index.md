@@ -17,7 +17,7 @@ Project Trident is a desktop-focused operating system based on [TrueOS](http://t
 * ***Regular Updates:*** Weekly updates for all 3rd-party packages and updates to the base OS every 6 months.
 * ***Always ready:*** No need to wait for OS or application updates before using your system. Perform updates only when *you* are ready.
 * ***Stable:*** Keep it running all day, every day, without loss of performance.
-* ***Open-source:*** All the source code for Project Trident is freely available for audit and update from interested party.
+* ***Open-source:*** All the source code for Project Trident is [freely available on GitHub](https://github.com/project-trident) for audit and enhancement by anyone.
 
 ## Recent Articles
 {{< recent-articles 5 >}}
