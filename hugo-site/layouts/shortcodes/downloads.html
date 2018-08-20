@@ -1,0 +1,16 @@
+{{ $baseurl := "http://pkg.project-trident.org/iso/release/" }}
+{{ $data := getJSON (print $baseurl "manifest.json") }}
+
+  {{ $iso_url := print $baseurl $data.iso }}
+  {{ $sig_url := print $baseurl $data.iso_signature }}
+  {{ $pubkey_url := print $baseurl $data.iso_pubkey }}
+  {{ $checksum_url := print $baseurl $data.iso_md5 }}
+
+  <a class="dlbutton" href={{$iso_url}}>Download ISO ({{$data.iso_size}}): {{ $data.iso }}</a>
+  <ul>
+    <li><a href={{$checksum_url}}>MD5 Checksum</a></li>
+    <li><a href={{$sig_url}}>SHA512 Signature</a></li>
+    <li><a href={{$pubkey_url}}>Public Key</a></li>
+  <br>
+
+
