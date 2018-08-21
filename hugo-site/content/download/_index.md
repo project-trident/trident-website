@@ -12,6 +12,8 @@ pre: "<i class='fa fa-download'></i>	"
 Project Trident will be having its first release in mid-late August, 2018 (version 18.08)
 Please stay tuned for additional information in the near future!
 
+{{< downloads >}}
+
 ## Migrating from other OS's
 ### FreeBSD
 *Coming Soon: Instructions for enabling the package repository for Project Trident.*

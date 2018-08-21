@@ -136,6 +136,12 @@ a:hover {
 	text-align: left;
 }
 
+.button {
+  border-radius: 5px;
+  background-color: var(--MAIN-LINK-color);
+
+}
+
 .bannerimg {
 	border-radius: 10px;
 	background-color: var(--MENU-SECTIONS-BG-color);
