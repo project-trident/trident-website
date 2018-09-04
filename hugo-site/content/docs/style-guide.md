@@ -1,4 +1,9 @@
-# Trident Documentation Style Guide
++++
+title = "Documentation Style Guide"
+menutitle = "Style Guide"
+description = "Formatting and Quickstart"
+pre = "<i class='fa fa-font'></i>	"
++++
 
 ## Summary
 
@@ -28,9 +33,9 @@ Trident Basic Style Elements:
 | Links                                      | `[link text](www.full-link.com)`                                    | The `[Trident website](https://www.project-trident.org)`                                                                                             |
 | Lists                                      | `1. OR #. OR - `                                                    | ``` 1. Enumerated list.    #. Autonumbered list.  - Unordered list. ```                                                                              |
 | Images                                     | `![Text](URL)`                                                      | `![Project Trident](https://github.com/project-trident/trident-website/tree/master/hugo-site/static/images/logo.svg)`                                |
-| Graphical Interface Item                   | `**Bold Text that Matches the Item Name Exactly**`                  | `**Insight** file manager`                                                                                                                           |
-| Examples or an exact string to type        | One backtick (`) for inline text. Three backticks (```) for blocks. | `Open a terminal and type \`ls\`.`  ``` This shows entering `ls` in a terminal: \``` tmoore@trident ~%  \``` ```                                     |
-| Markdown Escape Character                  | \                                                                   | `Use a backtick (\`).`                                                                                                                               |
+| Graphical Interface Item                   | \*\*Bold Text that Matches the Item Name Exactly\*\*                  | `**Insight** file manager`                                                                                                                           |
+| Examples or an exact string to type        | One backtick (\`) for inline text. Three backticks (\`\`\`) for blocks. | "Open a terminal and type \`ls\`" becomes "Open a terminal and type `ls`" |
+| Markdown Escape Character                  | \\                                                                   | `Use a backtick (\\`).`                                                                                                                               |
 
 The rest of this document provides more details about Trident documentation tools and more guidelines for writing style.
 
