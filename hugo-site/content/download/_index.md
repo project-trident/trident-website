@@ -18,7 +18,6 @@ Please stay tuned for additional information in the near future!
 |Architecture| 64-bit | 64-bit |
 | Memory | 2GB+ | 1GB |
 |Disk Space| 20GB+ | 10GB |
-|CPU| Any | Any |
 |Virtualization| VMWare, bhyve | VirtualBox |
 
 

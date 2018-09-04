@@ -5,18 +5,20 @@
   {{ $sig_url := print $baseurl $data.iso_signature }}
   {{ $pubkey_url := print $baseurl $data.iso_pubkey }}
   {{ $checksum_url := print $baseurl $data.iso_md5 }}
+<br>
   <article>
     <div class="blogpost">
       <h3>Latest Release (Version 18.08)</h3>
-      <b> DVD/USB Install image ({{$data.iso_size}}): 
-      <a class="button" href={{$iso_url}}>{{ $data.iso }}</a>
+      <b> DVD/USB Install image ({{ $data.iso_size }}): 
+        <a class="button" href={{ $iso_url }}>{{ $data.iso }}</a>
       </b>
       <br>
       <i>ISO validation files:</i>
       <ul>
-        <li><a href={{$checksum_url}}>MD5 Checksum:</a> {{$data.iso_md5_raw}}</li>
+	<li>Build Date: {{ $data.build_date }}</li>
+        <li><a href={{$checksum_url}}>MD5 Checksum:</a> {{ $data.iso_md5_raw }}</li>
         <li><a href={{$sig_url}}>SHA512 Signature</a></li>
-        <li><a href={{$pubkey_url}}>Public Key</a></li>
+        <li><a href={{$pubkey_url}}>Public SSL Key</a></li>
       </ul>
     </div>
   </article>

@@ -34,12 +34,7 @@ However it’s not done there, being a complete hardware hoarder, JT also tests 
 (Maybe it’s time for an intervention for his hardware collecting habits)
 
 
-**Ken**:
-
-* 3rd or 4th generation X1 Carbon
-* Eee PC T101MT Netbook (dual core 1GHz, 2GB of memory). Not a daily driver but more used for verifying how well Trident works on low-end hardware.
-* Office computer is an Intel i7 with an NVIDIA Geforce GTK 960 running three 4K monitors.
-* A couple other custom-built workstations (1 AMD, 1 Intel+NVIDIA) - generally 2+ year old hardware.
+**Ken**: For a laptop, he primarily uses a 3rd generation X1 Carbon, but also has an old Eee PC T101MT Netbook (dual core 1GHz, 2GB of memory) which he uses for verifying how well Trident works on low-end hardware. As far as workstations go, his office computer is an Intel i7 with an NVIDIA Geforce GTK 960 running three 4K monitors and he has a couple other custom-built workstations (1 AMD, 1 Intel+NVIDIA) at his home. Generally he assembled random workstations based on hardware that was given to him or that he could aquire cheap.
 
 **Tim**: is using a third gen X1 Carbon and a custom built desktop with an Intel Core i5-4440 CPU, 16 GiB RAM, Nvidia GeForce GTX 750 Ti, and a RealTek 8168 / 8111 network card.
 

@@ -1,7 +1,7 @@
 +++
-title = "Documentation Style Guide"
+title = "Style Guide"
 menutitle = "Style Guide"
-description = "Formatting and Quickstart"
+description = "Start Here: Formatting and Quickstart Guide"
 pre = "<i class='fa fa-font'></i>	"
 +++
 
