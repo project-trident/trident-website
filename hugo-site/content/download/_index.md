@@ -8,10 +8,6 @@ weight: 2
 pre: "<i class='fa fa-download'></i>	"
 ---
 
-## Coming Soon!
-Project Trident will be having its first release in mid-late August, 2018 (version 18.08)
-Please stay tuned for additional information in the near future!
-
 ## System Requirements
 |System|Recommended|Minimum |
 |:--:|:--------------------:|:--------------:|
