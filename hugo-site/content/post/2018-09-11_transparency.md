@@ -10,7 +10,7 @@ pre = "<i class='fa fa-comments'></i>	"
 One of the goals of Project Trident is for the project to be as transparent as possible.  Not only with code, but also with finances, decision making, and goals for the project in general.
 
 ### Open Meetings
-After the project has a successful release, we are planning to have open community meetings to discuss the project and make decisions about future work. We have internally discussed several options for how to do this and right now we are leaning towards using a Twitch stream. YouTube is still being considered, but we are currently leaning toward using Twitch. The Twitch streams will remain public and, as long as the video files are not extremely large, we will also save meeting videos into the GitHub repository and/or a Youtube channel so anyone can see past meetings.
+After the project has a successful release, we are planning to have open community meetings to discuss the project and make decisions about future work. We have internally discussed several options for how to do this and right now we are leaning towards using a Twitch stream. YouTube is still being considered, but we are currently leaning toward using Twitch. The Twitch streams will remain public and we will also save meeting videos into a Youtube channel so anyone can see past meetings.
 
 *Note:* Meetings will most likely not be a free-for-all where anyone can connect in and start talking. We do want to remain organized and not waste anyone's time. We will ask the community for questions prior to a meeting date and then we will discuss those issues. Twitch also has a live chat stream for everyone to be able to chat while the meeting is happening.
 
