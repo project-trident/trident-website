@@ -14,7 +14,7 @@ The request we receive more than any other so far is ARM support. However, thatâ
 ### What architectures are we interested in?
 Ken is interested in RISC-V and has looked at the HiFive board which you can read about here: [https://www.sifive.com/products/hifive-unleashed/](https://www.sifive.com/products/hifive-unleashed/)
 
-JT is interested in the open power architecture.  He has some dealings with working on Power6 and Power7 systems, but has never had the opportunity to work with Power8 or Power9.
+JT is interested in the open power architecture.  He has some experience with working on Power6 and Power7 systems, but has never had the opportunity to work with Power8 or Power9.
 
 As mentioned above, we are often asked about arm64.  While arm64 does look promising, the landscape of arm boards is very fractured.  One of JT's good friends, Jason Plum, is one of the core developers of Arch Linux arm and has significant experience in porting Linux to the plethora of arm boards that are produced and released onto the market. Knowing the type of work that is required to support new boards and the constant effort to chase every new board developed, we do not feel that it is our best interest to spend time and energy into supporting tons of random boards.
 
@@ -22,7 +22,7 @@ Caviumâ€™s ThunderX is very attractive, but we run into the same problem of sour
 
 ###  What do you need to get started with other architectures?
 The hardware sourcing problem is the same problem that we have for all of the big three Architectures; ThunderX, OpenPower, and RISC-V.
-A decent dev system for any of these alternate architectures is going to run in the neighborhood of $2,500 to obtain.  With this cost barrier, we are going to be unable to target every alternative architecture right away. However, if the community wants to donate hardware or contribute time and code to supporting these architectures, we will do what we can to support these efforts. 
+A decent dev system for any of these alternate architectures is going to run in the neighborhood of $2,500 to obtain.  With this cost barrier, we won't be able to target every alternative architecture right away. However, if the community wants to donate hardware or contribute time and code to supporting these architectures, we will do what we can to support these efforts.
 
 Hopefully, we will eventually support all of the architectures we listed, but we have to pick a logical starting point. The first architecture support attempt has not been decided by the current project contributors.
 
