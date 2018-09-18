@@ -1,5 +1,5 @@
 # trident-website
-Source repository for the Project Trident website.
+Source repository for the [Project Trident website](http://project-trident.org).
 These sources are used by the "hugo" static-site generation system to create/deploy the website.
 
 ## Deployment
