@@ -42,6 +42,20 @@ h2, h3, h4, h5 {
     color: var(--MAIN-TITLES-TEXT-color) !important;
 }
 
+blockquote {
+    border-left: 2ex solid var(--MENU-SEARCH-BG-color);
+    background-color: var(--MENU-HEADER-BG-color);
+}
+
+code {
+  background: var(--MENU-SEARCH-BOX-color);
+  border-color: var(--MENU-SEARCH-BG-color);
+  color: var(--MAIN-TEXT-color);
+}
+code + .copy-to-clipboard, code +.copy-to-clipboard:hover {
+  background-color: var(--MENU-SEARCH-BG-color);
+}
+
 a {
     color: var(--MAIN-LINK-color);
 }
