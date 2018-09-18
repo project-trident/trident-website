@@ -14,9 +14,9 @@ The request we receive more than any other so far is ARM support. However, thatâ
 ### What architectures are we interested in?
 Ken is interested in RISC-V and has looked at the HiFive board which you can read about here: [https://www.sifive.com/products/hifive-unleashed/](https://www.sifive.com/products/hifive-unleashed/)
 
-JT is interested in the open power architecture.  He has some experience with working on Power6 and Power7 systems, but has never had the opportunity to work with Power8 or Power9.
+JT is interested in the OpenPOWER architecture.  He has some experience with working on Power6 and Power7 systems, but has never had the opportunity to work with Power8 or Power9.  He's currently eyeing up one of [Raptor Computing's Development Systems](https://www.raptorcs.com/content/TLSDS3/intro.html)
 
-As mentioned above, we are often asked about arm64.  While arm64 does look promising, the landscape of arm boards is very fractured.  One of JT's good friends, Jason Plum, is one of the core developers of Arch Linux arm and has significant experience in porting Linux to the plethora of arm boards that are produced and released onto the market. Knowing the type of work that is required to support new boards and the constant effort to chase every new board developed, we do not feel that it is our best interest to spend time and energy into supporting tons of random boards.
+As mentioned above, we are often asked about arm64.  While arm64 does look promising, the landscape of arm boards is very fractured.  One of JT's good friends, Jason Plum, is one of the core developers of Arch Linux ARM and has significant experience in porting Linux to the plethora of arm boards that are produced and released onto the market. Knowing the type of work that is required to support new boards and the constant effort to chase every new board developed, we do not feel that it is our best interest to spend time and energy into supporting tons of random boards.
 
 Caviumâ€™s ThunderX is very attractive, but we run into the same problem of sourcing hardware.  You can read about ThunderX here: [https://www.cavium.com/product-thunderx-arm-processors.html](https://www.cavium.com/product-thunderx-arm-processors.html)
 
