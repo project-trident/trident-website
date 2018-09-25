@@ -18,7 +18,7 @@ if [ -d "${DIST_DIR}" ] ; then
 fi
 basedir=`dirname $0`
 cd "${basedir}/hugo-site"
-${CMD_PREFIX} /usr/local/bin/hugo -b "http://${FINAL_SITE}" -d "${DIST_DIR}"
+${CMD_PREFIX} /usr/local/bin/hugo --ignoreCache -b "http://${FINAL_SITE}" -d "${DIST_DIR}"
 cd ..
 ${CMD_PREFIX} chown -R www:www "${DIST_DIR}"
 
