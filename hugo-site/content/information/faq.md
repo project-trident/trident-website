@@ -29,7 +29,7 @@ A: Yes, we will be totally open with how much money comes into the project and w
 Project Trident does have very close ties to the TrueOS project, since most of the original Project Trident developers were once part of the TrueOS project before it became a distribution platform. For users of the TrueOS desktop, we have some additional questions and answers below.
 
 ## Q: Do we need to be at a certain TrueOS install level/release to upgrade?
-A: As long as you have a TrueOS system which has been updated to at least the 18.03 release you should be able to just perform a system update to be automatically upgraded to Project Trident.
+A: As of mid-summer 2018, there is no direct path. We will be working on making the "Install into Boot Environment (BE)", as seemless as possible, as the only upgrade path.
 
 ## Q: Which members moved from TrueOS to Project Trident?
 A: Project Trident is being led by prior members of the TrueOS desktop team. Ken and JT (development), Tim (documentation) and Rod (Community/Support). Since Project Trident is a community-first project, we look forward to working with new members of the team as the project continues to grow and expand.
