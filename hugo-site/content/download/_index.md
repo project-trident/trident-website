@@ -42,9 +42,9 @@ This plaintext file can easily be [downloaded from the package server](http://pk
  
 
 ### TrueOS (18.06+)
-*Coming Soon: Instructions for enabling the package repository for Project Trident.*
+Coming Soon: Instructions for enabling the package repository for Project Trident.
 
 ### TrueOS "Desktop" (18.03)
-How-to upgrade from the final release of the TrueOS "desktop" edition to Project Trident
+As of mid-summer 2018, there is no direct path. We will be working on making the “Install into Boot Environment (BE)”, as seemless as possible, as the only upgrade path.
 
 *Coming Soon: Instructions for using pc-updatemanager to perform the update.*
