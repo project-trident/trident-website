@@ -22,6 +22,7 @@ pre: "<i class='fa fa-download'></i>	"
 
 ## RC3 WARNINGS/ERRATA
 Version RC3 of Project Trident is the first version based off-of the "trueos-master" branch of TrueOS. Because of this, there are a number of things that were discovered as broken or need some tweaks compared to previous versions:
+
 1. FreeBSD bootloader was changed from the "forth"-based version to the new "Lua"-based version [browse the code here](https://github.com/trueos/trueos/tree/trueos-master/stand). This has resulted in some (older?) systems being unable to boot properly or cause FreeBSD kernel panics during bootup - particularly if the system is booting with an older UEFI implementation. Some possible solutions are:
    1. Update your system BIOS following the instructions from your system/motherboard manufacturer.
    2. If your system has weird corrupted terminal graphics during bootup, follow [this guide](https://github.com/trueos/trueos/wiki/UEFI-Resolution)
@@ -61,6 +62,7 @@ We have a script available on our package server in order to perform this update
 ```
 fetch http://pkg.project-trident.org/repo-config/install-trident-repo.sh
 sudo sh install-trident-repo.sh
+sudo trueos-update check
 sudo trueos-update upgrade
 ```
 **WARNING** Running the `trueos-update upgrade` command will automatically reboot your computer when it is finished staging the updates.
@@ -69,18 +71,23 @@ sudo trueos-update upgrade
 ### TrueOS 18.06+ (or any distribution of it)
 This migration can be performed, but may require a bit of manual tweaking afterwards:
 
-1. Fetch and run the script to convert your system package repositories over to point to Project Trident:
+* Fetch and run the script to convert your system package repositories over to point to Project Trident:
+
 ```
 fetch http://pkg.project-trident.org/repo-config/install-trident-repo.sh
 sudo sh install-trident-repo.sh
+sudo trueos-update check
 sudo trueos-update upgrade
 ```
-2. Once the upgrade has been performed, you will need to install the trident packages with the following command: `sudo pkg install trident-core`. This will probably remove conflicting packages such as "trueos-desktop", "trueos-servers", and other similar meta-packages, but it is a good idea to verify that.
-3. If desired, run the `/usr/local/share/trident/scripts/sys-init.sh` script to perform the first-time setup routine for Project Trident. This will change things like the branding on PCDM, the default configuration for the Lumina desktop, and similar things.
-4. Reboot the computer. You are all set!
+* Once the upgrade has been performed, you will need to install the trident packages with the following command: `sudo pkg install trident-core`. This will probably remove conflicting packages such as "trueos-desktop", "trueos-servers", and other similar meta-packages, but it is a good idea to verify that.
+* If desired, run the `/usr/local/share/trident/scripts/sys-init.sh` script to perform the first-time setup routine for Project Trident. This will change things like the branding on PCDM, the default configuration for the Lumina desktop, and similar things.
+* Reboot the computer. You are all set!
 
 ### TrueOS "Desktop" (18.03) or FreeBSD
 There is no direct upgrade path for these kinds of systems, so you will need to follow these steps to migrate your system over to Project Trident:
 
+**WARNING** : Always backup all important data to an external location before performing anything as intensive as a system installation!
+
 1. Install/prepare the ISO just as for a new installation
-2. On the disk setup page of the installer, select the "Boot EnvironmentWe will be working on making the “Install into Boot Environment (BE)”, as seemless as possible, as the only upgrade path.
+2. On the disk setup page of the installer, select the "Boot Environment" option in order to perform a fresh installation into an existing ZFS system layout. This will change the system packages and system configs, but anything within the /usr/home directory should be preserved.
+3. Re-create your user(s) with the same information and uid as before. This will allow those users to immediately start re-using the same home directory and data as before.

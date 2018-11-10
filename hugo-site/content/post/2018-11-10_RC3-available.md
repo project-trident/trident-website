@@ -1,5 +1,5 @@
 +++
-title = "Project Trident RC3 Available"
+title = "RC3 Available"
 menutitle = "RC3 Available"
 description = ""
 date = "2018-11-10"
@@ -7,7 +7,7 @@ draft = false
 pre = "<i class='fa fa-exclamation'></i>	"
 +++
 
-The new version of Project Trident is now available on [the download page](/download)!
+Release Candidate 3 of Project Trident is now available on [the download page](/download)!
 
 This version is the first one based on the "trueos-master" branch of TrueOS, and with that comes a lot of changes and breaks from the previous versions.
 
