@@ -33,8 +33,7 @@ Version RC3 of Project Trident is the first version based off-of the "trueos-mas
    3. Re-start the graphical installer by running: `start-trident-installer`
 2. Some TrueOS branding is still in place for the installed system on RC3. This can be fixed by running the following commands from a terminal:
    1. Reset PCDM theme: `sudo cp /usr/local/etc/pcdm.conf.trident /usr/local/etc/pcdm.conf`
-   2. Reset default Lumina settings: `sudo cp /usr/local/etc/luminaDesktop.conf.trident /usr/local/etc/luminaDesktop.conf`
-   3. If already logged into Lumina, delete your desktop settings with the command: `rm -r ~/.config/lumina-desktop`, then log out and log back in to re-load the default settings.
+   2. Reset Icon theme: Open up the Theme engine utility (available in the lumina-config "appearance" section) and change the icon theme over to "le-trident-dark" and apply the change. Some apps may need to be restarted before they start using the new icon theme.
 
 ## General Release Notes
 ### Application/Package Availability
