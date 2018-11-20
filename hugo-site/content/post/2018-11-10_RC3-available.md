@@ -19,7 +19,3 @@ This version is the first one based on the "trueos-master" branch of TrueOS, and
    * This is specific to Project Trident, and other TrueOS distributions may use other naming schemes.
 4. Packages are aligned with the TrueOS ports tree as of November 3rd, 2018.
 5. A number of default system-configuration settings are no longer getting setup properly with the new base of TrueOS. These are mentioned in the "Errata" section on the download page as well as methods for manually replacing these files (these should automatically be fixed upon update to RC4 when it is released).
-6. From telegram, to get moused working;
-  Step 1. kldload ums
-  Step 2 service moused restart
-  Step 3 start-trident-installer &
