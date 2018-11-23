@@ -20,21 +20,16 @@ pre: "<i class='fa fa-download'></i>	"
 {{< downloads >}}
 
 
-## RC3 WARNINGS/ERRATA
-Version RC3 of Project Trident is the first version based off-of the "trueos-master" branch of TrueOS. Because of this, there are a number of things that were discovered as broken or need some tweaks compared to previous versions:
+## 18.11-PRERELEASE WARNINGS/ERRATA
+TrueOS and FreeBSD recently changed their bootloader to a new tool written in Lua rather than the traditional bootloader written in Forth. If you experience issues with booting the ISO or the installed system, please [file a bug ticket with the FreeBSD project](https://bugs.freebsd.org). The source code for the Lua-based bootloader [can be found here](https://github.com/trueos/trueos/tree/trueos-master/stand)
 
-1. FreeBSD bootloader was changed from the "forth"-based version to the new "Lua"-based version [browse the code here](https://github.com/trueos/trueos/tree/trueos-master/stand). This has resulted in some (older?) systems being unable to boot properly or cause FreeBSD kernel panics during bootup - particularly if the system is booting with an older UEFI implementation. Some possible solutions are:
+* Some possible solutions for bootup issues are:
    1. Update your system BIOS following the instructions from your system/motherboard manufacturer.
    2. If your system has weird corrupted terminal graphics during bootup, follow [this guide](https://github.com/trueos/trueos/wiki/UEFI-Resolution)
    3. Try switching your BIOS to legacy mode instead of UEFI mode. This may have other consequences though - UEFI is recommended for most modern graphics driver support.
-2. The install ISO appears to not be starting many of the backend services (such as "moused"). If you experience trouble using your mouse within the installer, drop to the terminal and run the following commands:
-   1. At the login prompt type: `root`
-   2. Run: `kldload ums`
-   3. Run: `service moused start`
-   4. Re-start the graphical installer by running: `start-trident-installer`
-2. Some TrueOS branding is still in place for the installed system on RC3. This can be fixed by running the following commands from a terminal:
-   1. Reset PCDM theme: `sudo cp /usr/local/etc/pcdm.conf.trident /usr/local/etc/pcdm.conf`
-   2. Reset Icon theme: Open up the Theme engine utility (available in the lumina-config "appearance" section) and change the icon theme over to "le-trident-dark" and apply the change. Some apps may need to be restarted before they start using the new icon theme.
+
+### Mouse Support within Virtual Machines
+If your bootup the ISO in a virtual machine and lack the ability to move your mouse, try changing the mouse emulation to PS/2 instead of USB. We have noticed with VirtualBox in particular, that the USB device support does not work until after the VirtualBox guest extensions are loaded (I.E: on the installed system).
 
 ## General Release Notes
 ### Application/Package Availability
