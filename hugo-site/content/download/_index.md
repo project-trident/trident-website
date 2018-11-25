@@ -37,7 +37,7 @@ Every single release includes a manifest of all the packages and versions that a
 This plaintext file can easily be [downloaded from the package server](http://pkg.project-trident.org/iso/release/pkg.list)
 
 #### If the package does not appear on the list
-1. See if a port exists for FreeBSD using [freshports.org](www.freshports.org)
+1. See if a port exists for FreeBSD using [freshports.org](https://www.freshports.org)
   * *No Port*: You can follow the [FreeBSD Porters Handbook](https://www.freebsd.org/doc/en/books/porters-handbook/) to create a new port, and then submit it either to [FreeBSD](https://bugs.freebsd.org/bugzilla/) or to [TrueOS](https://github.com/trueos/trueos-ports). Once accepted by either project, the port will become available by Project Trident a short time later.
 2. See if the port is failing to build by looking at the [port build logs](https://builds.ixsystems.com/poseidon/jail.html?mastername=trident-master-current).
    * Note that all the package build are iterative - so if the latest build has no record of it you may need to look at previous builds to find the job that tried to build the package.
