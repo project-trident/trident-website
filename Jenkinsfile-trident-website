@@ -1,0 +1,27 @@
+/*
+This is the default Jenkins Pipeline file used to periodically check/rebuild the website
+*/
+
+pipeline {
+  agent { label 'JenkinsMaster' }
+  triggers {
+    pollSCM('H/30 * * * *')
+  }
+  environment {
+        REMOTE_USER='root'
+        REMOTE_SERVER='project-trident.org'
+        REMOTE_SCRIPT='/root/trident-website/check_updates.sh'
+  }
+
+  stages {
+    stage('Rebuild Website') {
+      steps {
+        sshagent (credentials: ['trident-website-root']) {
+          sh 'ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null ${REMOTE_USER}@${REMOTE_SERVER} ${REMOTE_SCRIPT}'
+        }
+      }
+    }
+
+  }
+
+}
