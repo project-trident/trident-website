@@ -9,6 +9,7 @@
 script_run="deploy_nginx.sh"
 
 current_dir=`dirname "$0"`
+cd "${current_dir}"
 #See if the current repo has any updates available
 result=`git pull | grep "Already up to date"`
 if [ -z "${result}" ] ; then
