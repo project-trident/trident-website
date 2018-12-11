@@ -20,7 +20,7 @@ pre: "<i class='fa fa-download'></i>	"
 {{< downloads >}}
 
 
-## 18.11-PRERELEASE WARNINGS/ERRATA
+## General WARNINGS/ERRATA
 TrueOS and FreeBSD recently changed their bootloader to a new tool written in Lua rather than the traditional bootloader written in Forth. If you experience issues with booting the ISO or the installed system, please [file a bug ticket with the FreeBSD project](https://bugs.freebsd.org). The source code for the Lua-based bootloader [can be found here](https://github.com/trueos/trueos/tree/trueos-master/stand)
 
 * Some possible solutions for bootup issues are:
