@@ -57,7 +57,7 @@ We have a script available on our package server in order to perform this update
 ```
 fetch http://pkg.project-trident.org/repo-config/install-trident-repo.sh
 sudo sh install-trident-repo.sh
-fetch https://pkg.project-trident.org/iso/release/trident-master.pubkey /usr/share/keys/Trident.pub
+fetch https://pkg.project-trident.org/iso/release/trident-master.pubkey -o /usr/share/keys/Trident.pub
 sudo trueos-update check
 sudo trueos-update upgrade
 ```
