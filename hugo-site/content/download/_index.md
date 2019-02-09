@@ -29,7 +29,7 @@ TrueOS and FreeBSD recently changed their bootloader to a new tool written in Lu
    3. Try switching your BIOS to legacy mode instead of UEFI mode. This may have other consequences though - UEFI is recommended for most modern graphics driver support.
 
 ### Mouse Support within Virtual Machines
-If your bootup the ISO in a virtual machine and lack the ability to move your mouse, try changing the mouse emulation to PS/2 instead of USB. We have noticed with VirtualBox in particular, that the USB device support does not work until after the VirtualBox guest extensions are loaded (I.E: on the installed system).
+If you bootup the ISO in a virtual machine and lack the ability to move your mouse, try changing the mouse emulation to PS/2 instead of USB. We have noticed with VirtualBox in particular, that the USB device support does not work until after the VirtualBox guest extensions are loaded (I.E: on the installed system).
 
 ## General Release Notes
 ### Application/Package Availability
