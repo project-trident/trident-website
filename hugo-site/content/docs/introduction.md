@@ -1,3 +1,11 @@
++++
+title = "Introduction"
+MenuTitle = "Introduction"
+chapter = false
+weight = 2
+pre = "<i class='fas fa-info'></i>   "
++++
+
 # Introduction
 
 Welcome to Project Trident!
