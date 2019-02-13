@@ -6,11 +6,11 @@ Project Trident is a desktop distribution of [TrueOS](https://www.trueos.org), w
 The goal of the Project is to provide a simple, secure, and highly usable FreeBSD experience.
 Project Trident is completely independent and financially backed through the generous contributions of the Open Source community.
 
-[Project Trident](https://www.Trident.org) began in 2018 when TrueOS was reorganized into a scaled down server installation of FreeBSD.
+[Project Trident](https://project-trident.org) began in 2018 when TrueOS was reorganized into a scaled down server installation of FreeBSD.
 The discontinued desktop portion of TrueOS was taken by Ken Moore and J.T. Pennington and rebuilt into Project Trident.
 
 Project Trident is essentially a customized installation of TrueOS and FreeBSD, not a forked derivative.
-Project Trident has a simple graphical installer that has partition support and other customization.
+Project Trident has a simple graphical installer that has partition support and other customization options.
 The underlying TrueOS/FreeBSD system is kept intact and provides a fully functional FreeBSD system.
 Other differences from FreeBSD include:
 
@@ -23,7 +23,7 @@ Other differences from FreeBSD include:
 
 -   Project Trident provides many graphical utilities for system configuration and management.
 
--   Project Trident comes pre-configured with a number of automatic scripts connecting USB memory sticks.
+-   Project Trident comes pre-configured with a number of automatic scripts for dynamically configuring the graphics display system and other desktop-oriented automatic systems such as dynamically suppoerting removable media.
 
 -   The Project Trident boot menu supports boot environments or snapshots of the operating system.
     The System Update Manager automatically creates a new boot environment before every update.
