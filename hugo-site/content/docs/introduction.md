@@ -12,7 +12,7 @@ Welcome to Project Trident!
 
 Project Trident is a desktop distribution of [TrueOS](https://www.trueos.org), which is a rolling-release variant of [FreeBSD](https://www.freebsd.org).
 The goal of the Project is to provide a simple, secure, and highly usable FreeBSD experience.
-Project Trident is completely independent and financially backed through the generous contributions of the Open Source community.
+Project Trident is completely independent and [financially backed through the generous contributions of the Open Source community](/sponsors).
 
 [Project Trident](https://project-trident.org) began in 2018 when TrueOS was reorganized into a scaled down server installation of FreeBSD.
 The discontinued desktop portion of TrueOS was taken by Ken Moore and J.T. Pennington and rebuilt into Project Trident.
