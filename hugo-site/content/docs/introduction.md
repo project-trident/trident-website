@@ -29,7 +29,7 @@ Other differences from FreeBSD include:
 
 -   Project Trident provides many graphical utilities for system configuration and management.
 
--   Project Trident comes pre-configured with a number of automatic scripts for dynamically configuring the graphics display system and other desktop-oriented automatic systems such as dynamically suppoerting removable media.
+-   Project Trident comes pre-configured with a number of automatic scripts for dynamically configuring the graphics display system and other desktop-oriented automatic systems such as dynamically supporting removable media.
 
 -   The Project Trident boot menu supports boot environments or snapshots of the operating system.
     The System Update Manager automatically creates a new boot environment before every update.
