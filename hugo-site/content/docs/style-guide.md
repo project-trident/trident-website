@@ -1,7 +1,7 @@
 +++
 title = "Style Guide"
 menutitle = "Style Guide"
-description = "Start Here: Formatting and Quickstart Guide"
+description = "Documentation Contributions: Formatting and Quickstart Guide"
 pre = "<i class='fa fa-font'></i>	"
 +++
 
@@ -22,6 +22,15 @@ Trident documentation will be periodically reviewed and edited to conform to thi
 All documentation is stored as Markdown files in the [trident-website](https://github.com/project-trident/trident-website/tree/master/hugo-site/content) repository on GitHub.
 These files are published to http://www.project-trident.org as articles.
 
+All articles must begin with a header block with a few specific elements:
+```
++++
+title = "Article Title"
+menutitle = "Article title in website sidebar"
+description = "Brief description of article. Appears on the website."
+pre = "<i class='fa fa-font'></i>	"
++++
+```
 Every documentation file needs an introduction section explaining the goal of the document and a summary of the most useful procedure.
 
 Trident Basic Style Elements:
