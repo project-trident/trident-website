@@ -6,8 +6,6 @@ weight = 2
 pre = "<i class='fas fa-info'></i>   "
 +++
 
-# Introduction
-
 Welcome to Project Trident!
 
 Project Trident is a desktop distribution of [TrueOS](https://www.trueos.org), which is a rolling-release variant of [FreeBSD](https://www.freebsd.org).
