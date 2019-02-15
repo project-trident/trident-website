@@ -130,3 +130,19 @@ These resources provide more information about security on FreeBSD-based operati
 -   [Security Section in the FreeBSD Handbook](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/security.html)
 -   [Hardening FreeBSD](http://www.bsdguides.org/2005/hardening-freebsd/)
 
+### ZFS
+
+ZFS is an enterprise grade file-system with many features.
+Support for high storage capacities, high reliability, the ability to quickly take snapshots, boot environments, continuous integrity checking and automatic repair, RAIDZ designed to overcome hardware RAID limitations, and native NFSv4 ACLs are all ZFS features available in Project Trident.
+
+The Wikipedia entry on ZFS provides an excellent starting point to learn about its features.
+[FreeBSD Mastery: ZFS](https://www.michaelwlucas.com/os/fmzfs) by Michael W Lucas and Allan Jude is also a helpful ZFS and FreeBSD resource.
+
+These resources are also useful:
+
+-   [ZFS Evil Tuning Guide](https://www.solaris-cookbook.eu/solaris/solaris-10-zfs-evil-tuning-guide/)
+-   [FreeBSD ZFS Tuning Guide](https://wiki.FreeBSD.org/ZFSTuningGuide)
+-   [ZFS Best Practices Guide](https://documents.irf.se/get_document.php?group=Computer&docid=311)
+-   [ZFS Administration Guide](https://docs.oracle.com/cd/E19253-01/819-5461/index.html)
+-   [Becoming a ZFS Ninja (video)](https://blogs.oracle.com/video/becoming-a-zfs-ninja)
+-   [Blog post explaining ZFS storage stack simplification](https://blogs.oracle.com/bonwick/rampant-layering-violation)
