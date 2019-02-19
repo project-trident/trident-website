@@ -65,7 +65,7 @@ TrueOS provides the OpenRC system for managing services on the OS in place of th
 
 * Faster bootup - OpenRC starts up services much faster and with better dependency handling than FreeBSD.
 * Better status reporting. The `rc-status` utility provides an instant look at all system services and their current status.
-* Service files are located in "[/usr/local]/etc/init.d" rather than "[/usr/local]/etc/rc.d"
+* Service files are located in `[/usr/local]/etc/init.d` rather than `[/usr/local]/etc/rc.d`.
 * Some services have different names: **dhcpcd** instead of *dhclient*, **network** instead of *netif*.
 * Many OpenRC services are "multiplexed" for individual device/profile management
    * Example: The "network.wlan0" service controls the first wifi device, and should be started/stopped instead of the "network" service when reconfiguring the wifi settings.
