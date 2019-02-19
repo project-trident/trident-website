@@ -18,7 +18,7 @@ Project Trident treats user privacy as a primary goal. We takes many steps to en
 
 * For enhanced privacy, we have a pre-defined firewall profile for routing all network traffic through the "tor" anonymizing service. While this profile is not enabled by default due to the speed limitations of the tor network, it can be easily enabled after installation.
 
-* The "Falkon" web browser that is pre-installed has ad-blocking functionality both built-in and pre-enabled. With the addition of private browsing and more advanced browsing protection options are also available within the preferences as well.
+* The "Falkon" web browser that is pre-installed has ad-blocking functionality both built-in and pre-enabled. Private browsing and additional browsing protection options are also available within the application preferences as well.
 
 
 ## Reliability
@@ -32,7 +32,5 @@ Project Trident utilizes a number of mechanisms to safeguard the data of each sy
 ## Security
 Utilizing leading security enhancements from OpenBSD, Project Trident also builds on TrueOS to provide a desktop focused operating system which keeps security implication and mitigation procedures as a top priority for the everyday user.
 Some of the security enhancements that we implement:
-
- * LibreSSL is used as a drop-in replacement for OpenSSL. This prevents *most* of the security issues that touch the SSL systems from impacting Project Trident. We also use LibreSSL when building all the 3rd-party applications/packages unless the application *specifically* requires OpenSSL for some reason.
 
  * All 3rd-party packages are built, signed, and sealed by Project Trident before being placed into a public repository. This allows the user to download and install trusted builds of applications from an official source, rather than having to fetch files from unknown sources.

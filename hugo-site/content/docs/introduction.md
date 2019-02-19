@@ -14,7 +14,7 @@ The goal of the Project is to provide a simple, secure, and highly usable FreeBS
 Project Trident is completely independent and [financially backed through the generous contributions of the Open Source community](/sponsors).
 
 [Project Trident](https://project-trident.org) began in 2018 when TrueOS was reorganized into a scaled down server installation of FreeBSD.
-The discontinued desktop portion of TrueOS was taken by Ken Moore and J.T. Pennington and rebuilt into Project Trident.
+The discontinued desktop portion of TrueOS was adopted by Ken Moore and J.T. Pennington, two desktop-focused TrueOS developers, and rebuilt into Project Trident.
 
 Project Trident is essentially a customized installation of TrueOS and FreeBSD, not a forked derivative.
 Project Trident has a simple graphical installer that has partition support and other customization options.
