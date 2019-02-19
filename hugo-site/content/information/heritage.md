@@ -67,12 +67,12 @@ TrueOS provides the OpenRC system for managing services on the OS in place of th
 * Better status reporting. The `rc-status` utility provides an instant look at all system services and their current status.
 * Service files are located in `[/usr/local]/etc/init.d` rather than `[/usr/local]/etc/rc.d`.
 * Some services have different names: **dhcpcd** instead of *dhclient*, **network** instead of *netif*.
-* Many OpenRC services are "multiplexed" for individual device/profile management
-   * Example: The "network.wlan0" service controls the first wifi device, and should be started/stopped instead of the "network" service when reconfiguring the wifi settings.
-* The [service-name]_enable="YES" entries on FreeBSD are no longer needed to enable services on bootup. Instead, OpenRC provides a method for grouping services together (called "runlevels"), and the `rc-update` utility is used to add/remove bootup registrations for services within these groups.
-   * Example: `rc-update add dbus default` will add the "dbus" service to the "default" runlevel and enable it to automatically start on bootup. 
-   * Example 2: `rc-update delete dbus default` will remove the "dbus" service from the "default" runlevel and prevent it from starting during bootup.
-* The "service" utility can be used exactly the same way as on FreeBSD to interact with services.
+* Many OpenRC services are "multiplexed" for individual device/profile management.
+   * Example: The **network.wlan0** service controls the first wifi device, and should be started/stopped instead of the **network** service when re-configuring the Wi-Fi settings.
+* The *[service-name]_enable="YES"* entries on FreeBSD are no longer needed to enable services on bootup. Instead, OpenRC provides a method for grouping services together (called "runlevels"), and the `rc-update` utility is used to add/remove bootup registrations for services within these groups.
+   * Example: `rc-update add dbus default` adds the **dbus** service to the **default** runlevel and enables it to automatically start on bootup. 
+   * Example 2: `rc-update delete dbus default` removes the **dbus** service from the **default** runlevel and prevents it from starting during bootup.
+* The "service" utility is used identically to FreeBSD for interacting with services.
    * Example: `service dbus stop` stops the **dbus** service when it is running.
    * Example 2: `service network.wlan0 restart` restarts the networking associated with the first wireless device.
 
