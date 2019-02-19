@@ -78,4 +78,4 @@ TrueOS provides the OpenRC system for managing services on the OS in place of th
 TrueOS uses the package system for installing the OS itself in addition to the pre-compiled "ports". This functionality is called "base packages" and allows a single package repository to contain both the OS and all the available applications in a single, unified collection of files. This functionality provides these features:
 
 * The OS and packages are always in sync. A single system update can be used for the entire end-to-end update of the system, even when OS changes like a new kernel are provided during a major release cycle.
-* System updates are *FAST* and clean. All updates are performed within a new Boot Environment, ensuring that your live system is never touched while you are using it. All it needs is a reboot to finish the procedures and boot into the newly-updated system.
+* System updates are **fast** and clean. All updates are performed within a new Boot Environment, ensuring the live system is never touched while in use. Reboot to finish the update procedure and boot into the newly-updated system.
