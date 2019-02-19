@@ -31,7 +31,7 @@ TrueOS also uses GitHub for managing it's ports repository[1], whereas FreeBSD s
 *[2] [FreeBSD ports repository](https://svn.freebsd.org/)*
 
 ## Differences From TrueOS
-*Note: The differences listed here generally also apply to other TrueOS-based distributions*
+*Note: Differences listed here also generally apply to other TrueOS-based distributions*
 
 Being a desktop-focused distribution, Project Trident provides many different graphical solutions for common tasks on TrueOS based systems:
 
