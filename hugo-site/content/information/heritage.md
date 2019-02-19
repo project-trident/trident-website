@@ -12,7 +12,8 @@ Project Trident is a desktop-focused disribution of [TrueOS](http://trueos.org),
 Rather than re-iterate the history of the FreeBSD and TrueOS projects, this page focuses on the similarities and differences between Project Trident and TrueOS/FreeBSD.
 
 ## Similarities
-The base operating system and kernel are identical between the various projects, as they are all built directly from the same source code - albeit at different times or from different branches of the source repositories. This includes the kernel, hardware drivers, file systems, and more.
+The base operating system and kernel are identical between the various projects, as they are all built directly from the same source code, although at different times or from different branches of the source repositories.
+This includes the kernel, hardware drivers, file systems, and more.
 
 All of the applications which are available in the form of packages are built from the exact same "ports tree", which is a source repository of build instructions for over 35000 applications, libraries, and more.
 These "ports" generally result in binaries which are compiled to run specifically on different FreeBSD-based operating system architectures.
