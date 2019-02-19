@@ -22,7 +22,10 @@ These "ports" generally result in binaries which are compiled to run specificall
 FreeBSD itself supports multiple types of computer architectures (i386, amd64, various flavors of ARM, etc..), but TrueOS and Project Trident are specifically focused on the amd64 architecture (often called x86-64, or "64-bit"), but also include the support capabilities to directly run i386 binaries ("32-bit").
 
 ### Ports
-Due to the addition of OpenRC to TrueOS for service management, the TrueOS project maintains a version of the FreeBSD ports tree which includes many additional files. These extra files are generally to ensure that OpenRC versions of service files are available alongside the traditional rc.d service files from FreeBSD, in addition to some other changes which the TrueOS project works on before they get submitted back to FreeBSD (new ports, new versions of ports, and more). TrueOS also utilized Github for managing it's ports repository[1], whereas FreeBSD still uses a privately-hosted SVN repository[2].
+Due to the addition of OpenRC to TrueOS for service management, the TrueOS project maintains a version of the FreeBSD ports tree which includes many additional files.
+These extra files ensure that OpenRC versions of service files are available alongside the traditional *rc.d* service files from FreeBSD.
+They also provide a testing area for other TrueOS changes before submission back to FreeBSD, including new ports, new versions of ports, and more.
+TrueOS also uses GitHub for managing it's ports repository[1], whereas FreeBSD still uses a privately-hosted SVN repository[2].
 
 *[1] [TrueOS ports repository](https://github.com/trueos/trueos-ports)*
 *[2] [FreeBSD ports repository](https://svn.freebsd.org/)*
