@@ -37,7 +37,8 @@ Being a desktop-focused distribution, Project Trident provides many different gr
 
 * Graphical front-end to the "pc-sysinstall" utility from TrueOS for managing the installation.
 * Graphical system setup
-   * While this is typically a manual task on TrueOS/FreeBSD, Project Trident provides a suite of scripts and utilities which handle all of the setup and maintenance of the graphical systems. These utilities are setup to run during the bootup routine and will dynamically provide the following features:
+   * While this is typically a manual task on TrueOS/FreeBSD, Project Trident provides a suite of scripts and utilities which handle all of the setup and maintenance of the graphical systems.
+     These utilities run during the bootup routine and dynamically provide these features:
       * Automatic "best-driver" setup for your hardware based upon which graphical drivers are installed and whether they match the type of GPU contained by your hardware.
       * Automatic failover to one of two different graphical drivers ("vesa" or "scfb") should the main graphics driver fail to work (such as installing the wrong version of the NVIDIA driver for your system).
       * Dynamic loading of the video driver and any associated kernel modules on bootup, allowing the system harddrive to be moved between systems as needed with little to no loss of functionality (provided that the drivers for both are installed already - otherwise one of the failover drivers may be used).
