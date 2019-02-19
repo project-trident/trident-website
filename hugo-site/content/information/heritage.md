@@ -52,7 +52,8 @@ Being a desktop-focused distribution, Project Trident provides many different gr
 * Stable OS, Rolling Ports
    * Project Trident uses the 6-month "stable" branch of TrueOS for the OS-components themselves. This ensures there are no radical changes or binary compatibility issues for a 6-month period of time.
    * Project Trident also builds and provides a package repository of every "port" contained in the TrueOS ports repository. This package repository is also updated every week, ensuring a steady stream of new or updated applications very soon after they appear in FreeBSD/TrueOS.
-   * Project Trident uses a [customized build configuration](https://github.com/project-trident/trident-build/blob/master/trident-master.json/) for both OS and ports to ensure that everything is built specifically to be used for a graphical operating system.
+   * Project Trident uses a [customized build configuration](https://github.com/project-trident/trident-build/blob/master/trident-master.json/) for both OS and ports.
+     Everything in Project Trident is built specifically to be used for a graphical operating system.
 
 ## Differences From FreeBSD
 
