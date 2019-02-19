@@ -14,7 +14,8 @@ Rather than re-iterate the history of the FreeBSD and TrueOS projects, this page
 ## Similarities
 The base operating system and kernel are identical between the various projects, as they are all built directly from the same source code - albeit at different times or from different branches of the source repositories. This includes the kernel, hardware drivers, file systems, and more.
 
-All of the applications which are available in the form of packages are built from the exact same "ports tree" - a source repository of build instructions for over 35000 applications, libraries, and more. These "ports" generally result in binaries which are compiled to run specifically on FreeBSD-based operating systems which are a particular architecture.
+All of the applications which are available in the form of packages are built from the exact same "ports tree", which is a source repository of build instructions for over 35000 applications, libraries, and more.
+These "ports" generally result in binaries which are compiled to run specifically on different FreeBSD-based operating system architectures.
 
 ### Architectures
 FreeBSD itself supports multiple types of computer architectures (i386, amd64, various flavors of ARM, etc..), but TrueOS and Project Trident are specifically focused on the amd64 architecture (often called x86-64, or "64-bit"), but also include the support capabilities to directly run i386 binaries ("32-bit").
