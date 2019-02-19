@@ -69,7 +69,7 @@ TrueOS provides the OpenRC system for managing services on the OS in place of th
    * Example: `rc-update add dbus default` will add the "dbus" service to the "default" runlevel and enable it to automatically start on bootup. 
    * Example 2: `rc-update delete dbus default` will remove the "dbus" service from the "default" runlevel and prevent it from starting during bootup.
 * The "service" utility can be used exactly the same way as on FreeBSD to interact with services.
-   * Example: `service dbus stop` will stop the "dbus" service if it is running.
+   * Example: `service dbus stop` stops the **dbus** service when it is running.
    * Example 2: `service network.wlan0 restart` will restart the networking associated with the first wireless device.
 
 ### Base Packages 
