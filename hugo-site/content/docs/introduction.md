@@ -100,8 +100,8 @@ The security features built into Project Trident include:
 
 - **SSH is disabled by default:** SSH can only be enabled by the administrator (root).
   This prevents bots and outside individuals from accessing a Project Trident system.
-  If SSH access is required, add `sshd\_enable=YES` to **/etc/rc.conf**.
-  Then, start the service with the Service Manager or by typing `sudo service sshd start` in the command line.
+  If SSH access is required, start the service with the Service Manager or by typing `sudo service sshd start` in the command line.
+  To enable SSH on each bootup, type `sudo rc-update add sshd` in the command line.
   Root access is required.
   A firewall rule must also be added using the Firewall Manager.
   Allow SSH connections through the default SSH TCP port *22*.
@@ -109,9 +109,9 @@ The security features built into Project Trident include:
 - **SSH root logins are disabled:** If SSH is enabled, login as a regular user and use `su` or `sudo` for administrative actions.
   Do not change this setting, as it prevents an unwanted user from having complete access to the system.
 
-- **sudo is installed:** `sudo` allows users in the *wheel* group permission to run an administrative command after typing the user password, not the *root* password.
-  The first user created during installation is added to the *wheel* group.
-  Use the User Configuration in Desktop Settings to add other users to the *wheel* group.
+- **sudo is installed:** `sudo` allows users in the *wheel* or *operator* groups permission to run an administrative command after typing the user password, not the *root* password.
+  The first user created during installation is added to the *wheel* and *operator* groups.
+  Use the User Configuration in Desktop Settings to add other users to the *wheel* or *operator* groups.
   To change the default `sudo` configuration, use `visudo` as *root*.
   This command verifies there are no syntax errors, which could inadvertently prevent root access.
     
