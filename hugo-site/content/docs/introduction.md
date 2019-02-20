@@ -69,3 +69,79 @@ Project Trident provides many features:
 -   **Easy system administration:** Project Trident provides many graphical tools for performing system administration.
 
 -   **Vibrant community:** Project Trident has a friendly and helpful community.
+
+### Security
+
+The Project Trident system is secure by default.
+This section is an overview of the built-in security features.
+There are also tips about increasing the security of the installed system beyond the configured defaults.
+
+The security features built into Project Trident include:
+
+- **Naturally immune to viruses and other malware written for other Operating Systems:** Most viruses are written to exploit the Windows operating system.
+  These are incompatible with the binaries and paths found on a Project Trident system.
+  Additional antivirus software is also available in the Appcafe.
+  This is useful when sending or forwarding email attachments to users running other operating systems.
+
+- **Potential for serious damage is limited:** Privilege separation between users and the administrator account (root) are built-in.
+  Files and directories can only be modified by root or users and groups with permission.
+  Any executed programs or scripts are only granted the permissions of that user.
+  A malicious program can only infect the files and directories owned by the user.
+  Core operating system files are protected.
+  Only users that are *wheel* and/or *operator* group members can gain administrative access.
+  These users are still not allowed to list directory contents or access files outside of the set "user" and "group" permissions.
+
+- **Built-in firewall:** The default firewall ruleset allows Internet access and any available network shares.
+  The firewall does not allow any inbound connections to the computer unless authorized by the user.
+
+- **Few default services:** All boot services can be viewed in the Service Manager.
+  Service Manager also allows starting, stopping, and adding or removing from boot any system service.
+
+- **SSH is disabled by default:** SSH can only be enabled by the administrator (root).
+  This prevents bots and outside individuals from accessing a Project Trident system.
+  If SSH access is required, start the service with the Service Manager or by typing `sudo service sshd start` in the command line.
+  To enable SSH on each bootup, type `sudo rc-update add sshd` in the command line.
+  Root access is required.
+  A firewall rule must also be added using the Firewall Manager.
+  Allow SSH connections through the default SSH TCP port *22*.
+
+- **SSH root logins are disabled:** If SSH is enabled, login as a regular user and use `su` or `sudo` for administrative actions.
+  Do not change this setting, as it prevents an unwanted user from having complete access to the system.
+
+- **sudo is installed:** `sudo` allows users in the *wheel* or *operator* groups permission to run an administrative command after typing the user password, not the *root* password.
+  The first user created during installation is added to the *wheel* and *operator* groups.
+  Use the User Configuration in Desktop Settings to add other users to the *wheel* or *operator* groups.
+  To change the default `sudo` configuration, use `visudo` as *root*.
+  This command verifies there are no syntax errors, which could inadvertently prevent root access.
+    
+- [AES instruction set](https://en.wikipedia.org/wiki/AES_instruction_set) (AESNI) support is loaded by default for the Intel Core i5/i7 processors that support this encryption set.
+  This support speeds up AES encryption and decryption.
+    
+- **Automatic notification of security advisories:** The System Update Manager utility automatically checks for any updates available from a [security advisory](https://www.freebsd.org/security/advisories.html) that affects Project Trident.
+  The administrator can keep the operating system fully patched against vulnerabilities with a mouse click.
+
+-   Tor Mode can be used to anonymously access Internet sites as it automatically forwards all Internet traffic through the [Tor Project's](https://www.torproject.org/) transparent proxy service.
+
+To learn more about security on TrueOS and Project Trident systems, `man security` is a good place to start.
+These resources provide more information about security on FreeBSD-based operating systems:
+
+-   [FreeBSD Security Information](https://www.freebsd.org/security/)
+-   [Security Section in the FreeBSD Handbook](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/security.html)
+-   [Hardening FreeBSD](http://www.bsdguides.org/2005/hardening-freebsd/)
+
+### ZFS
+
+ZFS is an enterprise grade file-system with many features.
+Support for high storage capacities, high reliability, the ability to quickly take snapshots, boot environments, continuous integrity checking and automatic repair, RAIDZ designed to overcome hardware RAID limitations, and native NFSv4 ACLs are all ZFS features available in Project Trident.
+
+The [ZFS Wikipedia entry](https://en.wikipedia.org/wiki/ZFS) provides an excellent starting point to learn about its features.
+[FreeBSD Mastery: ZFS](https://www.michaelwlucas.com/os/fmzfs) by Michael W Lucas and Allan Jude is also a helpful ZFS and FreeBSD resource.
+
+These resources are also useful:
+
+-   [ZFS Evil Tuning Guide](https://www.solaris-cookbook.eu/solaris/solaris-10-zfs-evil-tuning-guide/)
+-   [FreeBSD ZFS Tuning Guide](https://wiki.FreeBSD.org/ZFSTuningGuide)
+-   [ZFS Best Practices Guide](https://documents.irf.se/get_document.php?group=Computer&docid=311)
+-   [ZFS Administration Guide](https://docs.oracle.com/cd/E19253-01/819-5461/index.html)
+-   [Becoming a ZFS Ninja (video)](https://blogs.oracle.com/video/becoming-a-zfs-ninja)
+-   [Blog post explaining ZFS storage stack simplification](https://blogs.oracle.com/bonwick/rampant-layering-violation)
