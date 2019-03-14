@@ -24,3 +24,14 @@ Locations of files (relative to root of repository):
 ```
 {{< shortcode [optional inputs] >}}
 ```
+
+## Charts and such
+The "mermaid" shortcode can be use to access the mermaid.js library for generating flowcharts and such. The reference material for this library is located [HERE](https://mermaidjs.github.io/flowchart.html), and can be used in a markdown pages as such:
+```
+{{< mermaid >}}
+graph LR
+  A[Square Box] --> B((Circle))
+  B --> C{Diamond}
+  C -.-> A
+{{< /mermaid >}}
+```
