@@ -11,6 +11,22 @@ Project Trident is a desktop-focused disribution of [TrueOS](http://trueos.org),
 
 Rather than re-iterate the history of the FreeBSD and TrueOS projects, this page focuses on the similarities and differences between Project Trident and TrueOS/FreeBSD.
 
+## General Overview
+{{< mermaid >}}
+graph BT
+A[FreeBSD Ports] --> C[TrueOS Ports]
+C -->|Weekly Builds| E{Project Trident}
+B[FreeBSD Source] -->|CURRENT Branch| D[TrueOS Source]
+D -->|6-month Stable Release| E
+C -.-> A
+D -.-> B
+style A stroke:red
+style B stroke:red
+style C stroke:black
+style D stroke:black
+style E stroke:blue
+{{< /mermaid >}}
+
 ## Similarities
 The base operating system and kernel are identical between the various projects, as they are all built directly from the same source code, although at different times or from different branches of the source repositories.
 This includes the kernel, hardware drivers, file systems, and more.
