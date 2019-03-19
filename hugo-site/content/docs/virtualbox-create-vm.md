@@ -16,6 +16,16 @@ The only limitation to virtualization is the system hardware.
 The virtual environment operating system can run slowly if the host computer has limited amounts CPU and RAM.
 Closing other non-essential applications on the host computer can free more CPU and RAM for the virtual machine.
 
+### Quickstart
+
+Trident Guest Virtual Machine (VM) Recommendations:
+
+- **Operating System**: *BSD*
+- **Version**: *FreeBSD (64-bit)*
+- **CPUs**: *1+*
+- **Memory**: *2048 MB* minimum, *4096 MB* recommended
+- **Disk Space**: *15 GB* minimum, *20 GB+* recommended
+
 ### VirtualBox
 
 VirtualBox is a popular virtualization software available for Project Trident.
@@ -29,9 +39,7 @@ To share files between the host and a Project Trident guest, use an NFS share.
 Please see the [VirtualBox website](https://www.virtualbox.org/) for additional information.
 The [VirtualBox Guest Additions](http://www.virtualbox.org/manual/ch04.html) page has support information and usage instructions.
 
-Running VirtualBox on a Project Trident system for the first time automatically gives the user account that started VirtualBox the necessary permissions to run the application.
-This could break existing shortcuts to VirtualBox.
-To fix a broken shortcut, log out and in again.
+Using VirtualBox on a Project Trident host requires opening **Control Panel > Users > Groups**, adding user accounts to the **vboxusers** group, and logging out and in again.
 
 ### Creating a Virtual Machine for a Project Trident Install
 
