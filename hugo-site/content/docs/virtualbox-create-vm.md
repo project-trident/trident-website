@@ -4,7 +4,7 @@ MenuTitle = "VirtualBox VMs"
 Description = "Simple instructions to create and configure a virtual machine for Project Trident."
 chapter = false
 weight = 2
-pre = "<i class='fas fa-info'></i>   "
+pre = "<i class='fa fa-television'></i>   "
 +++
 
 ## Virtualization

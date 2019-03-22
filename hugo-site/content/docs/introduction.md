@@ -4,7 +4,7 @@ MenuTitle = "Introduction"
 Description = "Overview of Project Trident"
 chapter = false
 weight = 2
-pre = "<i class='fas fa-info'></i>   "
+pre = "<i class='fa fa-info'></i>   "
 +++
 
 Welcome to Project Trident!
