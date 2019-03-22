@@ -67,7 +67,7 @@ Open the **Operating System** drop-down menu and select *BSD*.
 In the **Version** drop-down menu, select *FreeBSD (64 bit)*.
 Click *Next*.
 
-![Virtual Machine Reserved Memory](images/vitualbox-memory-size.png)
+![Virtual Machine Reserved Memory](images/virtualbox-memory-size.png)
 
 The base memory size must be changed to **at least 2048 MB.**
 Assigning more RAM improves the guest operating system performance.
