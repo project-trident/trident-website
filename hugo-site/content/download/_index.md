@@ -12,24 +12,13 @@ pre: "<i class='fa fa-download'></i>	"
 |System|Recommended|Minimum |
 |:--:|:--------------------:|:--------------:|
 |Architecture| 64-bit | 64-bit |
-| Memory | 2GB+ | 1GB |
+| Memory | 4GB | 2GB |
 |Disk Space| 20GB+ | 10GB |
 |Virtualization| VMWare, bhyve | VirtualBox |
 
 
 {{< downloads >}}
 
-
-## General WARNINGS/ERRATA
-TrueOS and FreeBSD recently changed their bootloader to a new tool written in Lua rather than the traditional bootloader written in Forth. If you experience issues with booting the ISO or the installed system, please [file a bug ticket with the FreeBSD project](https://bugs.freebsd.org). The source code for the Lua-based bootloader [can be found here](https://github.com/trueos/trueos/tree/trueos-master/stand)
-
-* Some possible solutions for bootup issues are:
-   1. Update your system BIOS following the instructions from your system/motherboard manufacturer.
-   2. If your system has weird corrupted terminal graphics during bootup, follow [this guide](https://github.com/trueos/trueos/wiki/UEFI-Resolution)
-   3. Try switching your BIOS to legacy mode instead of UEFI mode. This may have other consequences though - UEFI is recommended for most modern graphics driver support.
-
-### Mouse Support within Virtual Machines
-If you bootup the ISO in a virtual machine and lack the ability to move your mouse, try changing the mouse emulation to PS/2 instead of USB. We have noticed with VirtualBox in particular, that the USB device support does not work until after the VirtualBox guest extensions are loaded (I.E: on the installed system).
 
 ## General Release Notes
 ### Application/Package Availability
@@ -47,6 +36,15 @@ This plaintext file can easily be [downloaded from the package server](http://pk
 ### Known Issues
 * **VirtualBox Guest**: When resizing the window for the Project Trident VM, there may be a delay in the session detecting/adjusting to the new "screen" size. When using the Lumina desktop, you may also need to run `killall fluxbox` from the command-line to re-initialize the window manager if the borders around windows disappear after a session resize from outsize the VM.
    * **Bug Bypass**: Use the "Preferences -> Display" settings utility (`lumina-xconfig`) from within the VM to change the session size. This will ensure that the session resize is performed in a consistent manner for the entire VM.
+
+#### Cannot Boot
+TrueOS and FreeBSD recently changed their bootloader to a new tool written in Lua rather than the traditional bootloader written in Forth. If you experience issues with booting the ISO or the installed system, please [file a bug ticket with the FreeBSD project](https://bugs.freebsd.org). The source code for the Lua-based bootloader [can be found here](https://github.com/trueos/trueos/tree/trueos-master/stand)
+
+* Some possible solutions for bootup issues are:
+   1. Update your system BIOS following the instructions from your system/motherboard manufacturer.
+   2. If your system has weird corrupted terminal graphics during bootup, follow [this guide](https://github.com/trueos/trueos/wiki/UEFI-Resolution)
+   3. Try switching your BIOS to legacy mode instead of UEFI mode. This may have other consequences though - UEFI is recommended for most modern graphics driver support.
+
 
 ## Migration/Update Paths
 ### Trident RC2 and older
