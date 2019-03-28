@@ -1,25 +1,28 @@
-{{ $baseurl := "http://pkg.project-trident.org/iso/release/" }}
+{{ $baseurl := "https://pkg.project-trident.org/iso/release/" }}
 {{ $data := getJSON (print $baseurl "manifest.json") }}
 
-  {{ $iso_url := print $baseurl $data.iso }}
-  {{ $sig_url := print $baseurl $data.iso_signature }}
-  {{ $pubkey_url := print $baseurl $data.iso_pubkey }}
-  {{ $checksum_url := print $baseurl $data.iso_md5 }}
+  {{ $iso_url := print $baseurl $data.iso_file }}
+  {{ $sig_url := print $baseurl $data.signature_file }}
+  {{ $pubkey_url := print $baseurl "pubkey.pem" }}
+  {{ $checksum_url := print $baseurl $data.md5_file }}
+  {{ $checksum_sha_url := print $baseurl $data.sha256_file }}
 <br>
   <article>
     <div class="blogpost">
       <h3>Latest Release</h3>
       <b> DVD/USB Install image ({{ $data.iso_size }}): 
-        <a class="button" href={{ $iso_url }}>{{ $data.iso }}</a>
+        <a class="button" href={{ $iso_url }}>{{ $data.iso_file }}</a>
       </b>
       <br>
       <i>ISO validation files:</i>
       <ul>
 	<li>Build Date: {{ $data.build_date }}</li>
-        <li><a href={{$checksum_url}}>MD5 Checksum:</a> {{ $data.iso_md5_raw }}</li>
+        <li><a href={{$checksum_url}}>MD5 Checksum:</a> {{ $data.md5 }}</li>
+        <li><a href={{$checksum_sha_url}}>SHA256 Checksum:</a> {{ $data.sha256 }}</li>
         <li><a href={{$sig_url}}>SHA512 Signature</a></li>
         <li><a href={{$pubkey_url}}>Public SSL Key</a></li>
         <li><a href="http://pkg.project-trident.org/iso/archive">Archived ISO Versions</a></li>
+        <li><a href="http://pkg.project-trident.org/iso/release/manifests">Additional Repository Manifests</a></li>
       </ul>
     </div>
   </article>

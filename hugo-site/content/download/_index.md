@@ -23,7 +23,7 @@ pre: "<i class='fa fa-download'></i>	"
 ## General Release Notes
 ### Application/Package Availability
 Every single release includes a manifest of all the packages and versions that are available in the repository.
-This plaintext file can easily be [downloaded from the package server](http://pkg.project-trident.org/iso/release/pkg.list)
+This plaintext file can easily be [downloaded from the package server](http://pkg.project-trident.org/iso/release/manifests/pkg.list)
 
 #### If the package does not appear on the list
 1. See if a port exists for FreeBSD using [freshports.org](https://www.freshports.org)
