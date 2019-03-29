@@ -24,7 +24,7 @@ The early tests are looking very promising, with a 500MB+ reduction in ISO sizes
 * **userland-tests** : All of the self-test scripts and/or utilities for the userland
 * **userland** : Meta-port for installing all of the various userland packages.
 
-The `sysyup` system-update utility (which the Trident update manager uses) is already able to seamlessly upgrade a system from the older-style base packages to the new ones, so there should be no special steps required to upgrade current Project Trident systems to the new style of base packages.
+The `sysup` system-update utility (which the Trident update manager uses) is already able to seamlessly upgrade a system from the older-style base packages to the new ones, so there should be no special steps required to upgrade current Project Trident systems to the new style of base packages.
 
 
 We have already merged everything from the Project Trident build routines directly into v1.1 of the TrueOS build framework, so this greatly simplifies the procedures to checkout and build a custom TrueOS distribution for everybody who is interested!
