@@ -15,7 +15,7 @@ pre: "<i class='fa fa-gift'></i>	"
 
 ---
 ## Become a Sponsor
-While Project Trident is a minimal-activity, for-profit business in the United States, all financial information is completely open and all sponsorships/donations go toward the furtherment of the project itself.
+Project Trident has a minimal-activity business license in the United States. All financial information is completely open and all sponsorships/donations go toward the furtherment of the project itself.
 
 If you wish to view our financial statements and/or expense accounts, you can find them all on the [trident-finances GitHub repository](https://github.com/project-trident/trident-finances).
 
