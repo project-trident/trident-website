@@ -1,0 +1,13 @@
+{
+  "Trident-release" : {
+    "status" : "ONLINE",
+    "version" : "18.12-U8",
+    "lastupdate" : "March 29, 2019",
+    "info_url" : "https://project-trident.org/post/2019-03-29_18.12-u8_available"
+  },
+  "Trident-staging" : {
+    "status" : "SYNCING",
+    "version" : "19.04"
+  }
+
+}
