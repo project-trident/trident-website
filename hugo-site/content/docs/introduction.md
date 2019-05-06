@@ -127,7 +127,6 @@ These resources provide more information about security on FreeBSD-based operati
 
 -   [FreeBSD Security Information](https://www.freebsd.org/security/)
 -   [Security Section in the FreeBSD Handbook](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/security.html)
--   [Hardening FreeBSD](http://www.bsdguides.org/2005/hardening-freebsd/)
 
 ### ZFS
 

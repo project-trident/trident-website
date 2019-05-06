@@ -11,7 +11,7 @@ pre = "<i class='fa fa-question-circle'></i>	"
 A:  We were looking for a name that was unique, yet would still relate to the BSD community. Since Beastie (the FreeBSD mascot) is always pictured with a trident, it felt like that would be a great name.
 
 ## Q: Where can users go for technical support?
-A: At the moment, Project Trident will continue sharing the TrueOS community forums and Telegram channels. We are currently evaluating dedicated options for support channels in the future.
+A: At the moment, Project Trident uses a Telegram channel for live communnity support. We are currently evaluating other options for support channels in the future.
 
 ## Q: Can I help contribute to the project?
 A: We are always looking for developers who want to join the project.  If you’re not a developer you can still help, as a community project we will be more reliant on contributions from the community in the form of how-to guides and other user-centric documentation and support systems.
@@ -32,4 +32,4 @@ Project Trident does have very close ties to the TrueOS project, since most of t
 A: As of mid-summer 2018, there is no direct path. We will be working on making the "Install into Boot Environment (BE)", as seemless as possible, as the only upgrade path.
 
 ## Q: Which members moved from TrueOS to Project Trident?
-A: Project Trident is being led by prior members of the TrueOS desktop team. Ken and JT (development), Tim (documentation) and Rod (Community/Support). Since Project Trident is a community-first project, we look forward to working with new members of the team as the project continues to grow and expand.
+A: Project Trident was created by prior members of the TrueOS desktop team. Since Project Trident is a community-first project, we look forward to working with new members of the team as the project continues to grow and expand.
