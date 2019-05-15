@@ -1,13 +1,20 @@
 {
   "Trident-release" : {
     "status" : "ONLINE",
-    "version" : "18.12-U8",
-    "lastupdate" : "March 29, 2019",
-    "info_url" : "https://project-trident.org/post/2019-03-29_18.12-u8_available"
+    "version" : "19.04",
+    "lastupdate" : "May 7, 2019",
+    "info_url" : "https://project-trident.org/post/2019-05-07_19.04_available/",
+    "errata" : {
+      "pre_1" : { "info" : "Qt4 packages causing `pkg` to crash due to being removed upstream.", "cmd" : "pkg remove -Ry qt4-corelib"}
+    }
   },
   "Trident-staging" : {
-    "status" : "SYNCING",
-    "version" : "19.04"
+    "status" : "ONLINE",
+    "version" : "19.04-U1",
+    "lastupdate" : "May 15, 2019",
+    "errata" : {
+      "info_1" : { "info" : "The first update will fail during bootstrap of the update utility itself. Simply restart the update and it will work fine after that." }
+    }
   }
 
 }
