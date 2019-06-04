@@ -9,9 +9,9 @@
     }
   },
   "Trident-staging" : {
-    "status" : "ONLINE",
-    "version" : "19.05",
-    "lastupdate" : "May 16, 2019",
+    "status" : "SYNCING",
+    "version" : "19.05-U1",
+    "lastupdate" : "June 4, 2019",
     "errata" : {}
   }
 
