@@ -1,0 +1,21 @@
+pipeline {
+  agent { label 'JenkinsJail' }
+
+  stages {
+    stage('Sync Files') {
+      environment {
+        REMOTE_USER='root'
+        REMOTE_SERVER='project-trident.org'
+        REMOTE_WEB_DIR='/root/stats-site/'
+        LOCAL_WEB_DIR='stats-site/'
+      }
+      steps {
+        sshagent (credentials: ['trident-website-root']) {
+          // Rsync Handbook to release dir
+          sh 'ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null ${REMOTE_USER}@${REMOTE_SERVER} mkdir -p ${REMOTE_WEB_DIR} || true'
+          sh 'rsync -av --delete-after --delay-updates -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" ${LOCAL_WEB_DIR} ${REMOTE_USER}@${REMOTE_SERVER}:${REMOTE_WEB_DIR}'
+        }
+      }
+    }
+  }
+}
