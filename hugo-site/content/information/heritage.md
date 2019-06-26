@@ -15,9 +15,9 @@ Rather than re-iterate the history of the FreeBSD and TrueOS projects, this page
 {{< mermaid >}}
 graph BT
 A[FreeBSD Ports] --> C[TrueOS Ports]
-C -->|Weekly Builds| E{Project Trident}
+C -->|Regular Builds| E{Project Trident}
 B[FreeBSD Source] -->|CURRENT Branch| D[TrueOS Source]
-D -->|6-month Stable Release| E
+D -->|Stable Releases| E
 C -.-> A
 D -.-> B
 style A stroke:red
@@ -66,7 +66,7 @@ Being a desktop-focused distribution, Project Trident provides many different gr
    * A [graphical system-update utility](https://github.com/project-trident/trident-utilities) has been written just for Project Trident. This provides easy access to configuring and performing updates in addition to the ability to roll-back a system update as desired.
    * Removable media detection and on-demand usage is provided via integrations between Project Trident and the Lumina Desktop.
 * Stable OS, Rolling Ports
-   * Project Trident uses the 6-month "stable" branch of TrueOS for the OS-components themselves. This ensures there are no radical changes or binary compatibility issues for a 6-month period of time.
+   * Project Trident uses the "stable" branches of TrueOS for the OS-components themselves. This ensures there are no radical changes or binary compatibility issues for a 6-month period of time.
    * Project Trident also builds and provides a package repository of every "port" contained in the TrueOS ports repository. This package repository is also updated every week, ensuring a steady stream of new or updated applications very soon after they appear in FreeBSD/TrueOS.
    * Project Trident uses a [customized build configuration](https://github.com/project-trident/trident-build/blob/master/trident-stable.json/) for both OS and ports.
      Everything in Project Trident is built specifically to be used for a graphical operating system.
