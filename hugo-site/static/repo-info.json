@@ -9,7 +9,7 @@
       "pre_2" : {
         "name" : "[CRITICAL] Sysup Bootstrap Configuration",
         "info" : "If updating from 19.05 or older: The 'bootstrap' configuration lines in /usr/local/etc/sysup.json need to be removed before starting the update. Failure to do this will result in an unusable system post-update.",
-        "cmd" : "sudo sh -c 'cp /usr/local/etc/sysup.json /usr/local/etc/sysup.json.old ; grep -v bootstrap /usr/local/etc/sysup.json.old > /usr/local/etc/sysup.json'"
+        "cmd" : "sh -c 'cp /usr/local/etc/sysup.json /usr/local/etc/sysup.json.old ; grep -v bootstrap /usr/local/etc/sysup.json.old > /usr/local/etc/sysup.json'"
       }
     }
   },
@@ -27,7 +27,7 @@
       "pre_2" : {
         "name" : "Sysup Bootstrap Configuration",
         "info" : "If updating from 19.05 or older: The 'bootstrap' configuration lines in /usr/local/etc/sysup.json need to be removed before starting the update. Failure to do this will result in an unusable system post-update.",
-        "cmd" : "sudo sh -c 'cp /usr/local/etc/sysup.json /usr/local/etc/sysup.json.old ; grep -v bootstrap /usr/local/etc/sysup.json.old > /usr/local/etc/sysup.json'"
+        "cmd" : "sh -c 'cp /usr/local/etc/sysup.json /usr/local/etc/sysup.json.old ; grep -v bootstrap /usr/local/etc/sysup.json.old > /usr/local/etc/sysup.json'"
       }
     }
   }
