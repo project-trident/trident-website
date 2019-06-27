@@ -1,18 +1,34 @@
 {
   "Trident-release" : {
-    "status" : "ONLINE",
-    "version" : "19.05",
-    "lastupdate" : "May 24, 2019",
+    "status" : "SYNCING",
+    "version" : "TOS-19.06",
+    "lastupdate" : "June 27, 2019",
     "errata" : {
       "info_1" : { "name" : "Sysup Bootstrap Warning", "info" : "If updating from 19.04 or older: The first system update will fail during the self-update of `sysup`. Simply restart the system update and it will work fine after that." },
-      "pre_1" : { "name" : "Qt4 Pre-Update Removal", "info" : "If updating from an 18.12 version: The Qt4 packages are causing `pkg` to crash due to being removed upstream.", "cmd" : "pkg remove -Ry qt4-corelib"}
+      "pre_1" : { "name" : "Qt4 Pre-Update Removal", "info" : "If updating from an 18.12 version: The Qt4 packages are causing `pkg` to crash due to being removed upstream.", "cmd" : "pkg remove -Ry qt4-corelib"},
+      "pre_2" : {
+        "name" : "[CRITICAL] Sysup Bootstrap Configuration",
+        "info" : "If updating from 19.05 or older: The 'bootstrap' configuration lines in /usr/local/etc/sysup.json need to be removed before starting the update. Failure to do this will result in an unusable system post-update.",
+        "cmd" : "sudo sh -c 'cp /usr/local/etc/sysup.json /usr/local/etc/sysup.json.old ; grep -v bootstrap /usr/local/etc/sysup.json.old > /usr/local/etc/sysup.json'"
+      }
     }
   },
   "Trident-staging" : {
-    "status" : "SYNCING",
-    "version" : "19.05-U1",
+    "status" : "BROKEN",
+    "version" : "FBSD-12 (BROKEN)",
     "lastupdate" : "June 5, 2019",
     "errata" : {}
+  },
+  "Trident-edge" : {
+    "status" : "ONLINE",
+    "version" : "TOS-19.06",
+    "lastupdate" : "June 26, 2019",
+    "errata" : {
+      "pre_2" : {
+        "name" : "Sysup Bootstrap Configuration",
+        "info" : "If updating from 19.05 or older: The 'bootstrap' configuration lines in /usr/local/etc/sysup.json need to be removed before starting the update. Failure to do this will result in an unusable system post-update.",
+        "cmd" : "sudo sh -c 'cp /usr/local/etc/sysup.json /usr/local/etc/sysup.json.old ; grep -v bootstrap /usr/local/etc/sysup.json.old > /usr/local/etc/sysup.json'"
+      }
+    }
   }
-
 }
