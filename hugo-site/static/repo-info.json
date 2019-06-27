@@ -7,9 +7,9 @@
       "info_1" : { "name" : "Sysup Bootstrap Warning", "info" : "If updating from 19.04 or older: The first system update will fail during the self-update of `sysup`. Simply restart the system update and it will work fine after that." },
       "pre_1" : { "name" : "Qt4 Pre-Update Removal", "info" : "If updating from an 18.12 version: The Qt4 packages are causing `pkg` to crash due to being removed upstream.", "cmd" : "pkg remove -Ry qt4-corelib"},
       "pre_2" : {
-        "name" : "[CRITICAL] Sysup Bootstrap Configuration",
-        "info" : "If updating from 19.05 or older: The 'bootstrap' configuration lines in /usr/local/etc/sysup.json need to be removed before starting the update. Failure to do this will result in an unusable system post-update.",
-        "cmd" : "sh -c 'cp /usr/local/etc/sysup.json /usr/local/etc/sysup.json.old ; grep -v bootstrap /usr/local/etc/sysup.json.old > /usr/local/etc/sysup.json'"
+        "name" : "[CRITICAL] Sysup Updater Bootstrap",
+        "info" : "If updating from 19.05 or older: The new version of sysup needs to be forcibly installed before starting the update. Failure to do so will render the new boot environment unusable.",
+        "cmd" : "pkg install -fy sysup"
       }
     }
   },
@@ -25,9 +25,9 @@
     "lastupdate" : "June 26, 2019",
     "errata" : {
       "pre_2" : {
-        "name" : "Sysup Bootstrap Configuration",
-        "info" : "If updating from 19.05 or older: The 'bootstrap' configuration lines in /usr/local/etc/sysup.json need to be removed before starting the update. Failure to do this will result in an unusable system post-update.",
-        "cmd" : "sh -c 'cp /usr/local/etc/sysup.json /usr/local/etc/sysup.json.old ; grep -v bootstrap /usr/local/etc/sysup.json.old > /usr/local/etc/sysup.json'"
+        "name" : "[CRITICAL] Sysup Updater Bootstrap",
+        "info" : "If updating from 19.05 or older: The new version of sysup needs to be forcibly installed before starting the update. Failure to do so will render the new boot environment unusable.",
+        "cmd" : "pkg install -fy sysup"
       }
     }
   }
