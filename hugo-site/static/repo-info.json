@@ -1,7 +1,7 @@
 {
   "Trident-release" : {
-    "status" : "SYNCING",
-    "version" : "TOS-19.06 (SYNCING)",
+    "status" : "ONLINE",
+    "version" : "TOS-19.06",
     "lastupdate" : "June 27, 2019",
     "errata" : {
       "info_1" : { "name" : "Sysup Bootstrap Warning", "info" : "If updating from 19.04 or older: The first system update will fail during the self-update of `sysup`. Simply restart the system update and it will work fine after that." },
