@@ -1,8 +1,8 @@
 {
   "Trident-release" : {
-    "status" : "ONLINE",
-    "version" : "TOS-19.06",
-    "lastupdate" : "June 27, 2019",
+    "status" : "SYNCING",
+    "version" : "TOS-19.07 (SYNCING)",
+    "lastupdate" : "July 11, 2019",
     "errata" : {
       "info_1" : { "name" : "Sysup Bootstrap Warning", "info" : "If updating from 19.04 or older: The first system update will fail during the self-update of `sysup`. Simply restart the system update and it will work fine after that." },
       "pre_1" : { "name" : "Qt4 Pre-Update Removal", "info" : "If updating from an 18.12 version: The Qt4 packages are causing `pkg` to crash due to being removed upstream.", "cmd" : "pkg remove -Ry qt4-corelib"},
@@ -20,8 +20,8 @@
     "errata" : {}
   },
   "Trident-edge" : {
-    "status" : "SYNCING",
-    "version" : "TOS-19.07 (SYNCING)",
+    "status" : "ONLINE",
+    "version" : "TOS-19.07",
     "lastupdate" : "July 11, 2019",
     "errata" : {
       "pre_2" : {
