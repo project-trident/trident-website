@@ -21,7 +21,7 @@
   },
   "Trident-edge" : {
     "status" : "SYNCING",
-    "version" : "TOS-19.07",
+    "version" : "TOS-19.07 (SYNCING)",
     "lastupdate" : "July 11, 2019",
     "errata" : {
       "pre_2" : {
