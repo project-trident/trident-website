@@ -11,4 +11,4 @@ Project Trident has a strict "no-tracking" policy for our users, and this direct
 
 Project Trident does not include any "anonymous reporting" methods that are common in applications. Instead, the only thing that Project Trident tracks is the number of update file downloads from our web servers. This provides basic but useful statistics about the number of systems that are online at any given day or month. This also lets us see the version breakdown that are still running "out in the wild".
 
-{{< update-stats >}}
+{{< embed "https://project-trident.org:40001" >}}
