@@ -2,7 +2,7 @@
 title = "Project Trident STABLE-12 Now Available"
 menutitle = "STABLE-12 Release"
 description = "STABLE update train is now available based on TrueOS 12"
-date = "2019-07-25"
+date = "2019-07-26"
 draft = true
 pre = "<i class='fa fa-exclamation'></i>	"
 +++
@@ -27,19 +27,8 @@ sudo sysup --change-train Trident-stable
 ```
 One that is done, you can start the update process via the graphical utility normally.
 
-# Important Notes
-* "sysutils/hal" has been blacklisted from Project Trident and will no longer be available in the package repositories due to ongoing security concerns.
-   * Utility was put into maintenance mode in May of 2008
-   * Current version of FreeBSD port was added in May of 2010
-   * Last maintenance commit to the upstream utility was in October of 2011
-   * There have been security reports about hal for years, including the "Bald Eagle" exploit which was announced in a [2017 Wikileaks document release](https://wikileaks.org/ciav7p1/cms/page_9535850.html).
-* As a side effect of blacklisting the "hal" port, all ports which have an *explicit* dependency on hal are automatically ignored by the package build system and will no longer have packages available in the Project Trident repositories. Some of these packages include:
-   * The XFCE desktop environment
-   * The MATE desktop environment
-   * The GNOME desktop environment
-   * The Cinnamon desktop environment.
-   * None of these desktops are officially supported by Project Trident, but if you are manually installing and using these desktops, you will need to contact the relevant FreeBSD port maintainers to get this issue resolved: [bugs.freebsd.org](https://bugs.freebsd.org)
-
-# FAQ
+# TLDR
 * **Q. Can I switch from the current release (FreeBSD 13) to the stable release (FreeBSD 12)**
-   * **YES** Because of the base packages system that Trident uses from TrueOS, jumping between different OS versions is as simple as activating the desired package repository and performing a full system update. This also ensures that the update is performed within a new Boot Environment, allowing you the ability to roll back to previous system/OS versions at any time.
+   * **YES** Because of the base packages system that Trident uses from TrueOS, jumping between the different OS versions is as simple as activating the desired package repository and performing a full system update. This also ensures that the update is performed within a new Boot Environment, allowing you the ability to roll back to previous system/OS versions at any time.
+* **Q. Is the CURRENT release train going to be removed?**
+   * **NO** Due to inconsistencies in build-ability for the CURRENT branch of FreeBSD/TrueOS, we made an executive decision in Project Trident to support two parallel update options: The CURRENT builds that we have already been doing, and a new build from the STABLE branch of FreeBSD/TrueOS. The STABLE branch should be much more reliable and allow us to push out weekly package updates again while the CURRENT repo updates depend on upstream build status and will probably end up transitioning to a monthly update.
