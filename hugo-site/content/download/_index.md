@@ -17,7 +17,8 @@ pre: "<i class='fa fa-download'></i>	"
 |Virtualization| VMWare, bhyve | VirtualBox |
 
 
-{{< downloads >}}
+{{< downloads "https://pkg.project-trident.org/iso/stable/" "Latest STABLE" >}}
+{{< downloads "https://pkg.project-trident.org/iso/release/" "Latest CURRENT" >}}
 
 
 ## General Release Notes

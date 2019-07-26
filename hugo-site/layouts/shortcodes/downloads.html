@@ -1,4 +1,5 @@
-{{ $baseurl := "https://pkg.project-trident.org/iso/release/" }}
+{{ $baseurl := (.Get 0) }}
+{{ $release_type := (.Get 1) }}
 {{ $data := getJSON (print $baseurl "manifest.json") }}
 
   {{ $iso_url := print $baseurl $data.iso_file }}
@@ -6,11 +7,12 @@
   {{ $pubkey_url := print $baseurl "pubkey.pem" }}
   {{ $checksum_url := print $baseurl $data.md5_file }}
   {{ $checksum_sha_url := print $baseurl $data.sha256_file }}
+  {{ $manifests_url := print $baseurl "/manifests" }}
 <br>
   <article>
     <div class="blogpost">
-      <h3>Latest Release</h3>
-      <b> DVD/USB Install image ({{ $data.iso_size }}): 
+      <h3>{{ $release_type }} Release</h3>
+      <b> DVD/USB Install image ({{ $data.iso_size }}):
         <a class="button" href={{ $iso_url }}>{{ $data.iso_file }}</a>
       </b>
       <br>
@@ -21,8 +23,7 @@
         <li><a href={{$checksum_sha_url}}>SHA256 Checksum:</a> {{ $data.sha256 }}</li>
         <li><a href={{$sig_url}}>SHA512 Signature</a></li>
         <li><a href={{$pubkey_url}}>Public SSL Key</a></li>
-        <li><a href="http://pkg.project-trident.org/iso/archive">Archived ISO Versions</a></li>
-        <li><a href="http://pkg.project-trident.org/iso/release/manifests">Additional Repository Manifests</a></li>
+        <li><a href={{ $manifests_url }}>Additional Repository Manifests</a></li>
       </ul>
     </div>
   </article>
