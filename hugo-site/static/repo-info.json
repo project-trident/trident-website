@@ -12,16 +12,22 @@
       }
     }
   },
+  "Trident-stable" : {
+    "status" : "ONLINE",
+    "version" : "TOS-12",
+    "lastupdate" : "July 26, 2019",
+    "errata" : {}
+  },
   "Trident-staging" : {
     "status" : "ONLINE",
     "version" : "TOS-12",
-    "lastupdate" : "July 19, 2019",
+    "lastupdate" : "July 25, 2019",
     "errata" : {}
   },
   "Trident-edge" : {
     "status" : "ONLINE",
     "version" : "TOS-19.07",
-    "lastupdate" : "July 11, 2019",
+    "lastupdate" : "July 26, 2019",
     "errata" : {
       "pre_2" : {
         "name" : "[CRITICAL] Sysup Updater Bootstrap",
