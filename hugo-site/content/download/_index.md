@@ -20,6 +20,25 @@ pre: "<i class='fa fa-download'></i>	"
 {{< downloads "https://pkg.project-trident.org/iso/stable/" "Latest STABLE" >}}
 {{< downloads "https://pkg.project-trident.org/iso/release/" "Latest CURRENT" >}}
 
+## Differences Between Versions
+| Version | Repository Name | OS | OS Branch | Package Updates | Notes |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| STABLE | Trident-stable | TrueOS 12 | trueos/stable/12 | ~Weekly | Latest Release of FreeBSD |
+| CURRENT | Trident-release | TrueOS 13 | trueos/master | ~Monthly | Development branch of FreeBSD |
+
+### Security Updates
+Both versions receive regular security updates from FreeBSD which are then imported into TrueOS. These security fixes are included in the regularly scheduled package updates.
+
+### Stability
+The CURRENT version is based off of the development branch of FreeBSD and TrueOS, and may periodically contain work that is only partially-completed. While Project Trident attempts to catch and fix any issues from this, there is still a possibility that an issue will sneak past our QA and impact a release.
+
+The STABLE version is based off of the most recent release verson of FreeBSD and TrueOS, with regular backports of security fixes after initial testing on the development branch. This results in many additional layers of QA for changes and is a much more "stable" experience.
+
+### System ABI
+The STABLE version has a static system ABI, meaning that self-created binaries and packages built for this version of the OS will continue to work across updates until it changes to the next major version number. The CURRENT version changes system ABI very regularly, typically every update or two.
+
+### Driver Support
+The STABLE version tends to lag quite a bit behind with regards to driver support for newer hardware. The CURRENT version contains all the latest hardware drivers and updates that have been committed to FreeBSD. For optimal hardware support on systems that were created within the last 2-3 years, it is recommended to use the CURRENT version.
 
 ## General Release Notes
 ### Application/Package Availability

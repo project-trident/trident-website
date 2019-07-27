@@ -26,7 +26,7 @@
   },
   "Trident-edge" : {
     "status" : "ONLINE",
-    "version" : "TOS-19.07",
+    "version" : "TOS-19.07-U1",
     "lastupdate" : "July 26, 2019",
     "errata" : {
       "pre_2" : {
