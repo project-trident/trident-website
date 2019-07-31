@@ -10,7 +10,7 @@ pipeline {
   environment {
         REMOTE_USER='root'
         REMOTE_SERVER='project-trident.org'
-        REMOTE_SCRIPT='/root/trident-website/check_updates.sh'
+        REMOTE_SCRIPT='/root/trident-website/check_updates.sh always'
   }
 
   stages {
