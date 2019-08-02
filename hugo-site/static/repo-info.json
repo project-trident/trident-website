@@ -20,8 +20,8 @@
   },
   "Trident-staging" : {
     "status" : "ONLINE",
-    "version" : "TOS-12",
-    "lastupdate" : "July 25, 2019",
+    "version" : "TOS-12-U1",
+    "lastupdate" : "August 1, 2019",
     "errata" : {}
   },
   "Trident-edge" : {
