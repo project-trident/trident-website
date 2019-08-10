@@ -14,14 +14,14 @@
   },
   "Trident-stable" : {
     "status" : "ONLINE",
-    "version" : "TOS-12-U1",
-    "lastupdate" : "August 3, 2019",
+    "version" : "TOS-12-U2",
+    "lastupdate" : "August 10, 2019",
     "errata" : {}
   },
   "Trident-staging" : {
     "status" : "ONLINE",
-    "version" : "TOS-12-U1",
-    "lastupdate" : "August 1, 2019",
+    "version" : "TOS-12-U2",
+    "lastupdate" : "August 8, 2019",
     "errata" : {}
   },
   "Trident-edge" : {
