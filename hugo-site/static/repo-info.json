@@ -26,8 +26,8 @@
   },
   "Trident-edge" : {
     "status" : "ONLINE",
-    "version" : "TOS-19.07-U1",
-    "lastupdate" : "July 29, 2019",
+    "version" : "TOS-19.08",
+    "lastupdate" : "August 12, 2019",
     "errata" : {
       "pre_2" : {
         "name" : "[CRITICAL] Sysup Updater Bootstrap",
