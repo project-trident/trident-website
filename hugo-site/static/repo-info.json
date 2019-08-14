@@ -1,8 +1,8 @@
 {
   "Trident-release" : {
     "status" : "ONLINE",
-    "version" : "TOS-19.07-U1",
-    "lastupdate" : "July 30, 2019",
+    "version" : "TOS-19.08",
+    "lastupdate" : "August 14, 2019",
     "errata" : {
       "pre_1" : { "name" : "Qt4 Pre-Update Removal", "info" : "If updating from an 18.12 version: The Qt4 packages are causing `pkg` to crash due to being removed upstream.", "cmd" : "pkg remove -Ry qt4-corelib"},
       "pre_2" : {
