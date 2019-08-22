@@ -14,8 +14,8 @@
   },
   "Trident-stable" : {
     "status" : "ONLINE",
-    "version" : "TOS-12-U2",
-    "lastupdate" : "August 10, 2019",
+    "version" : "TOS-12-U3",
+    "lastupdate" : "August 22, 2019",
     "errata" : {}
   },
   "Trident-staging" : {
