@@ -4,7 +4,6 @@
     "version" : "TOS-19.08",
     "lastupdate" : "August 14, 2019",
     "errata" : {
-      "pre_1" : { "name" : "Qt4 Pre-Update Removal", "info" : "If updating from an 18.12 version: The Qt4 packages are causing `pkg` to crash due to being removed upstream.", "cmd" : "pkg remove -Ry qt4-corelib"},
       "pre_2" : {
         "name" : "[CRITICAL] Sysup Updater Bootstrap",
         "info" : "If updating from 19.05 or older: The new version of sysup needs to be forcibly installed before starting the update. Failure to do so will render the new boot environment unusable.",
@@ -26,14 +25,9 @@
   },
   "Trident-edge" : {
     "status" : "ONLINE",
-    "version" : "TOS-19.08",
-    "lastupdate" : "August 12, 2019",
+    "version" : "TOS-19.08-U1 (Broken)",
+    "lastupdate" : "August 24, 2019",
     "errata" : {
-      "pre_2" : {
-        "name" : "[CRITICAL] Sysup Updater Bootstrap",
-        "info" : "If updating from 19.05 or older: The new version of sysup needs to be forcibly installed before starting the update. Failure to do so will render the new boot environment unusable.",
-        "cmd" : "pkg install -fy sysup"
-      }
     }
   }
 }
