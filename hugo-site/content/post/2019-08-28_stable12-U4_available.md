@@ -3,7 +3,7 @@ title = "Project Trident 12-U4 Now Available"
 menutitle = "12-U4 Available"
 description = "STABLE release repository updates"
 date = "2019-08-28"
-draft = true
+draft = false
 pre = "<i class='fa fa-wrench'></i>	"
 +++
 
