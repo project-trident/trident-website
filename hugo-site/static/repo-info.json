@@ -21,9 +21,9 @@
   },
   "Trident-staging" : {
     "status" : "ONLINE",
-    "version" : "TOS-12-U4",
+    "version" : "TOS-12-U5",
     "ABI" : "FreeBSD:12:amd64",
-    "lastupdate" : "August 27, 2019",
+    "lastupdate" : "September 3, 2019",
     "errata" : {}
   },
   "Trident-edge" : {
