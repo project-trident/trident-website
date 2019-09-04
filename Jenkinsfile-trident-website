@@ -11,6 +11,7 @@ pipeline {
         REMOTE_USER='root'
         REMOTE_SERVER='project-trident.org'
         REMOTE_SCRIPT='/root/trident-website/check_updates.sh always'
+	REMOTE_SSL_RENEW='/usr/local/bin/certbot-3.6 renew'
   }
 
   stages {
@@ -19,6 +20,11 @@ pipeline {
         sshagent (credentials: ['trident-website-root']) {
           sh 'ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null ${REMOTE_USER}@${REMOTE_SERVER} ${REMOTE_SCRIPT}'
         }
+      }
+    }
+    stage('Check SSL Cert Renewal') {
+        sshagent (credentials: ['trident-website-root']) {
+          sh 'ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null ${REMOTE_USER}@${REMOTE_SERVER} ${REMOTE_SSL_RENEW}'
       }
     }
 
