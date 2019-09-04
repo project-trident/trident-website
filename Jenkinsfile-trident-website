@@ -23,8 +23,10 @@ pipeline {
       }
     }
     stage('Check SSL Cert Renewal') {
+      steps {
         sshagent (credentials: ['trident-website-root']) {
           sh 'ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null ${REMOTE_USER}@${REMOTE_SERVER} ${REMOTE_SSL_RENEW}'
+        }
       }
     }
 
