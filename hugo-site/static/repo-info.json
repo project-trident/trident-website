@@ -28,9 +28,9 @@
   },
   "Trident-edge" : {
     "status" : "ONLINE",
-    "version" : "TOS-19.09",
+    "version" : "TOS-19.10",
     "ABI" : "FreeBSD:13:amd64",
-    "lastupdate" : "August 24, 2019",
+    "lastupdate" : "October 4, 2019",
     "errata" : {}
   }
 }
