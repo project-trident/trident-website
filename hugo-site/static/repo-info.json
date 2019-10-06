@@ -1,9 +1,9 @@
 {
   "Trident-release" : {
     "status" : "ONLINE",
-    "version" : "TOS-19.08",
+    "version" : "TOS-19.10",
     "ABI" : "FreeBSD:13:amd64",
-    "lastupdate" : "August 14, 2019",
+    "lastupdate" : "October 5, 2019",
     "errata" : {
       "pre_2" : {
         "name" : "[CRITICAL] Sysup Updater Bootstrap",
