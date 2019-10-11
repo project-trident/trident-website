@@ -8,14 +8,14 @@ pre = "<i class='fa fa-exclamation'></i>	"
 +++
 
 
-In preparation for some upcoming changes, Project Trident will be deprecating the package repository based upon FreeBSD CURRENT (Trident-release). The 19.10 packages that are currently available on that repository will remain available but will no longer receive updates. The repository will be deleted at the end of December 2019.
+To prepare for upcoming changes, Project Trident is deprecating the package repository based upon FreeBSD CURRENT (Trident-release). The 19.10 packages available in the Trident-release repository will remain available in the short term, but no further updates are planned for this repository. The Trident-release repository is scheduled for deletion at the end of December 2019.
 
-We are planning on deprecating the STABLE package repository in the beginning of 2020, with a removal date planned for April of 2020. A summary of the timetables for the repository changes is provided below for reference.
+The STABLE package repository is scheduled to be deprecated in the beginning of 2020. It is scheduled to be removed in April 2020. A timetable for repository changes is provided below.
 
 ## Future Updates
-For long-term stability, Project Trident is hard at work migrating to an alternate operating system as the basis for the project, with a planned release in the beginning of 2020. 
+For long-term stability, Project Trident is hard at work migrating to an alternate operating system as the basis for the project. The migration is planned to be complete in late 2019. A new version of Project Trident based on the different operating system is planned for release in early 2020.
 
-As a quick teaser, in our tests with the new system, we are already experiencing faster boot times, daily app updates, newer hardware drivers, and bluetooth support. We will post additional information and details about this change in the near future, so please stay tuned!
+For a small preview, we're already experiencing faster boot times, daily app updates, newer hardware drivers, and bluetooth support in the new version of Project Trident. We'll post more information and details about these changes in the near future, so please stay tuned!
 
 ## Repository Timetable
 | |STABLE | CURRENT |
