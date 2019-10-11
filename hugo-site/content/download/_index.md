@@ -18,13 +18,13 @@ pre: "<i class='fa fa-download'></i>	"
 
 
 {{< downloads "https://pkg.project-trident.org/iso/stable/" "Latest STABLE" >}}
-{{< downloads "https://pkg.project-trident.org/iso/release/" "Latest CURRENT" >}}
+{{< downloads "https://pkg.project-trident.org/iso/release/" "[Deprecated] Last CURRENT" >}}
 
 ## Differences Between Versions
 | Version | Repository Name | OS | OS Branch | Package Updates | Notes |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | STABLE | Trident-stable | TrueOS 12 | trueos/stable/12 | ~Weekly | Latest Release of FreeBSD |
-| CURRENT | Trident-release | TrueOS 13 | trueos/master | ~Monthly | Development branch of FreeBSD |
+| CURRENT | Trident-release | TrueOS 13 | trueos/master | No More Updates - Will be removed Dec 31, 2019 | Development branch of FreeBSD |
 
 ### Security Updates
 Both versions receive regular security updates from FreeBSD which are then imported into TrueOS. These security fixes are included in the regularly scheduled package updates.

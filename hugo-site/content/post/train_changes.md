@@ -3,7 +3,7 @@ title = "Update Train Changes"
 menutitle = "Update Train Changes"
 description = "Schedules for changes to update trains"
 date = "2019-10-11"
-draft = true
+draft = false
 pre = "<i class='fa fa-exclamation'></i>	"
 +++
 
@@ -24,4 +24,3 @@ For a small preview, we're already experiencing faster boot times, daily app upd
 | FreeBSD Version | 12.x | 13.x |
 | Final Update | Jan 2020 | Oct 2019 (19.10 release) |
 | Repository Deletion | April 2020 | Jan 2020 |
-

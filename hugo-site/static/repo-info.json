@@ -5,10 +5,9 @@
     "ABI" : "FreeBSD:13:amd64",
     "lastupdate" : "October 5, 2019",
     "errata" : {
-      "pre_2" : {
-        "name" : "[CRITICAL] Sysup Updater Bootstrap",
-        "info" : "If updating from 19.05 or older: The new version of sysup needs to be forcibly installed before starting the update. Failure to do so will render the new boot environment unusable.",
-        "cmd" : "pkg install -fy sysup"
+      "info_1" : {
+        "name" : "Repo Deprecated: Please migrate to Trident-stable",
+        "info" : "This repository has been deprecated and is scheduled for deletion December 31 of 2019. Please go to http://project-trident.org for additional information."
       }
     }
   },
