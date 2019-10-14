@@ -59,7 +59,7 @@ This change will result in many *immediate* benefits for Project Trident:
    * Newer audio chipsets are supported automatically.
    * Streaming audio through HDMI connections should now become functional.
 3. Better wireless support
-   * Newer wifi shipsets are supported.
+   * Newer wifi chipsets are supported.
    * Wireless connections will actually run at the proper connection speeds for the protocol type (n, ac, etc..).
 4. Bluetooth support
    * For the first time, PT will be able to start supporting and leveraging bluetooth devices due to a functional backend implementation from the OS.
