@@ -12,6 +12,7 @@ pre: "<i class='fa fa-gift'></i>	"
 *For information about Enterprise-level sponsorships, please [contact the Project Trident Core Team](mailto:core@project-trident.org).*
 
 {{< figure src="/images/sponsor-ixsystems.png" title="Enterprise storage and servers, powered by Open Source" link="http://www.ixsystems.com" target="_blank" rel="external" >}}
+iXsystems sponsors Project Trident through providing a build server and Package CDN. 
 
 ---
 ## Become a Sponsor
