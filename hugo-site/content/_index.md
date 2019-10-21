@@ -19,5 +19,7 @@ Project Trident is a desktop-focused operating system based on [TrueOS](http://t
 * ***Stable:*** Keep it running all day, every day, without loss of performance.
 * ***Open-source:*** All the source code for Project Trident is [freely available on GitHub](https://github.com/project-trident) for audit and enhancement by anyone.
 
+{{< banner "/images/pt-desktop.jpg" >}}
+
 ## Recent Articles
 {{< recent-articles 5 >}}
