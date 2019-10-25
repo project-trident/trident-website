@@ -1,7 +1,7 @@
 {
   "Trident-release" : {
     "status" : "ONLINE",
-    "version" : "TOS-19.10",
+    "version" : "TOS-19.10 [FINAL]",
     "ABI" : "FreeBSD:13:amd64",
     "lastupdate" : "October 5, 2019",
     "errata" : {
@@ -13,9 +13,9 @@
   },
   "Trident-stable" : {
     "status" : "ONLINE",
-    "version" : "TOS-12-U10",
+    "version" : "TOS-12-U11",
     "ABI" : "FreeBSD:12:amd64",
-    "lastupdate" : "October 21, 2019",
+    "lastupdate" : "October 25, 2019",
     "errata" : {}
   },
   "Trident-staging" : {
@@ -27,7 +27,7 @@
   },
   "Trident-edge" : {
     "status" : "ONLINE",
-    "version" : "TOS-19.10",
+    "version" : "TOS-19.10 [FINAL]",
     "ABI" : "FreeBSD:13:amd64",
     "lastupdate" : "October 4, 2019",
     "errata" : {}
