@@ -3,7 +3,7 @@ title = "Void Linux Alpha Image Available"
 menutitle = "[ALPHA] Void Download Available"
 description = "An alpha-quality image of Void Linux is now available for testing."
 date = "2019-11-07"
-draft = true
+draft = false
 pre = "<i class='fa fa-exclamation'></i>	"
 +++
 
@@ -38,7 +38,7 @@ Project Trident is please to announce a new Alpha-quality image of the new versi
 2. From our initial testing, the average time to perform the installation is about 30 minutes. This will vary depending on download speeds and compilation time of the DKMS module(s).
 3. The default shell for Void Linux is "dash" and is the "/bin/sh" of the system.
    * It may be very helpful to run `chsh` after login to change the default login shell, since dash is very limited.
-   * In shell scripts, make sure to use "#!/bin/bash" instead of "#!/bin/sh", otherwise you may experience odd script failures due to using "dash" instead of the POSIX "Bourne shell".
+   * In shell scripts, make sure to use "#!/bin/bash" instead of "#!/bin/sh", otherwise you may experience odd script failures due to using "dash" instead of the traditional "Bourne shell".
 
 ## Looking ahead
 With the ALPHA now ready, we are moving into preparing a BETA release next. This stage involves porting over our existing tools and utilities, creating user management subsystems, and integrating the boot-to-graphics systems.
