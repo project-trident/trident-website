@@ -8,7 +8,7 @@ pre = "<i class='fa fa-exclamation'></i>	"
 +++
 
 
-Project Trident is please to announce a new Alpha-quality image of the new version based on Void Linux is now available [on the download page](/download).
+Project Trident is pleased to announce a new Alpha-quality image of the new version based on Void Linux is now available [on the download page](/download).
 
 ## What does this image provide?
 
