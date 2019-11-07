@@ -7,7 +7,6 @@
   {{ $pubkey_url := print $baseurl "pubkey.pem" }}
   {{ $checksum_url := print $baseurl $data.md5_file }}
   {{ $checksum_sha_url := print $baseurl $data.sha256_file }}
-  {{ $manifests_url := print $baseurl "/manifests" }}
 <br>
   <article>
     <div class="blogpost">
@@ -21,9 +20,8 @@
 	<li>Build Date: {{ $data.build_date }}</li>
         <li><a href={{$checksum_url}}>MD5 Checksum:</a> {{ $data.md5 }}</li>
         <li><a href={{$checksum_sha_url}}>SHA256 Checksum:</a> {{ $data.sha256 }}</li>
-        <li><a href={{$sig_url}}>SHA512 Signature</a></li>
+        <li><a href={{$sig_url}}>SHA512 OpenSSL Signature</a></li>
         <li><a href={{$pubkey_url}}>Public SSL Key</a></li>
-        <li><a href={{ $manifests_url }}>Additional Repository Manifests</a></li>
       </ul>
     </div>
   </article>
