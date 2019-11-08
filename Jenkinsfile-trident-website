@@ -11,7 +11,7 @@ pipeline {
         REMOTE_USER='root'
         REMOTE_SERVER='project-trident.org'
         REMOTE_SCRIPT='/root/trident-website/check_updates.sh always'
-	REMOTE_SSL_RENEW='/usr/local/bin/certbot-3.6 renew &'
+	REMOTE_SSL_RENEW='/usr/local/bin/certbot-3.6 renew -q'
   }
 
   stages {
