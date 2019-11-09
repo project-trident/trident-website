@@ -1,0 +1,28 @@
+{{ $baseurl := (.Get 0) }}
+{{ $release_type := (.Get 1) }}
+{{ $manifest := (.Get 2) }}
+{{ $data := getJSON (print $manifest) }}
+
+  {{ $iso_url := print $baseurl $data.iso_file }}
+  {{ $sig_url := print $baseurl $data.signature_file }}
+  {{ $pubkey_url := print $baseurl "pubkey.pem" }}
+  {{ $checksum_url := print $baseurl $data.md5_file }}
+  {{ $checksum_sha_url := print $baseurl $data.sha256_file }}
+<br>
+  <article>
+    <div class="blogpost">
+      <h3>{{ $release_type }} Release</h3>
+      <b> DVD/USB Install image ({{ $data.iso_size }}):
+        <a class="button" href={{ $iso_url }}>{{ $data.iso_file }}</a>
+      </b>
+      <br>
+      <i>ISO validation files:</i>
+      <ul>
+	<li>Build Date: {{ $data.build_date }}</li>
+        <li><a href={{$checksum_url}}>MD5 Checksum:</a> {{ $data.md5 }}</li>
+        <li><a href={{$checksum_sha_url}}>SHA256 Checksum:</a> {{ $data.sha256 }}</li>
+        <li><a href={{$sig_url}}>SHA512 OpenSSL Signature</a></li>
+        <li><a href={{$pubkey_url}}>Public SSL Key</a></li>
+      </ul>
+    </div>
+  </article>
