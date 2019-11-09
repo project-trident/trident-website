@@ -4,6 +4,7 @@ defaultContentLanguage = "en"
 title = "Project Trident"
 theme = "hugo-theme-learn"
 copyright = "3-Clause BSD License"
+staticDir = [ "static", "/root/www" ]
 
 [author]
   name = "Project Trident"

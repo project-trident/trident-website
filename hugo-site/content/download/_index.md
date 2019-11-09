@@ -17,7 +17,7 @@ pre: "<i class='fa fa-download'></i>	"
 |Virtualization| VMWare, bhyve | VirtualBox |
 
 
-{{< downloads "https://project-trident.org:40001/void/" "Void Linux ALPHA" >}}
+{{< downloads "https://project-trident.org/void/" "Void Linux ALPHA" >}}
 {{< downloads "https://pkg.project-trident.org/iso/stable/" "Latest STABLE" >}}
 {{< downloads "https://pkg.project-trident.org/iso/release/" "[Deprecated] Last CURRENT" >}}
 
