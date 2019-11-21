@@ -18,8 +18,10 @@ pre: "<i class='fa fa-download'></i>	"
 
 
 {{< download2 "https://project-trident.org/void/" "Void Linux ALPHA" "https://project-trident.org:40001/void/manifest.json" >}}
-{{< downloads "https://pkg.project-trident.org/iso/stable/" "Latest STABLE" >}}
-{{< downloads "https://pkg.project-trident.org/iso/release/" "[Deprecated] Last CURRENT" >}}
+For details about what this ALPHA image provides, please see [the announcement](/post/void-alpha-available/).
+
+{{< downloads "https://pkg.project-trident.org/iso/stable/" "[EOL: Jan 2020] Latest STABLE" >}}
+{{< downloads "https://pkg.project-trident.org/iso/release/" "[Deprecated Oct 2019] Last CURRENT" >}}
 
 ## Differences Between Versions
 | Version | Repository Name | OS | OS Branch | Package Updates | Notes |
