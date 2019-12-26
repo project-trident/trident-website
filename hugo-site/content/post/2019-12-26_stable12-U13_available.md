@@ -2,14 +2,14 @@
 title = "Project Trident 12-U13 Now Available"
 menutitle = "12-U13 Available"
 description = "STABLE release repository updates"
-date = "2019-12-25"
-draft = true
+date = "2019-12-26"
+draft = false
 pre = "<i class='fa fa-wrench'></i>	"
 +++
 
-This is the **FINAL** package update to the STABLE release repository based upon TrueOS 12-Stable. We are hard at work on the upcoming version of Project Trident based on Void Linux, and are preparing to release it in January of 2020.
+This is the **FINAL** package update to the STABLE release repository based upon TrueOS 12-Stable. We are hard at work on the upcoming version of Project Trident based on Void Linux, and are preparing to release that new edition of Project Trident in January of 2020.
 
-Have a merry Christmas and a happy New Year!
+We hope you had a merry Christmas and that you all have a happy New Year!
 
 # Package Changes From STABLE 12-U12
 *For a full list of available packages, please visit [the GitHub repository](https://github.com/project-trident/trident-core/tree/master/version-lists)!*
