@@ -13,7 +13,7 @@ Project Trident is pleased to announce a new Beta-quality image based on Void Li
 We have also converted our Trident "docs" repository over to a wiki-based system. This will be the central location for all information related to the Void Linux system setup and configuration.
 Please feel free to help expand this wiki while you are using the BETA image!
 
-[Trident-Docs WIki](https://github.com/project-trident/trident-docs/wiki)
+[Trident-Docs Wiki](https://github.com/project-trident/trident-docs/wiki)
 
 
 ## What is new since the ALPHA image?
@@ -43,7 +43,7 @@ Please feel free to help expand this wiki while you are using the BETA image!
 ## I installed the ALPHA, should I reinstall for the BETA?
 Yes. There have been many changes to boot setup and dataset organization since the ALPHA image. These changes are difficult to make without a full reinstall.
 
-The base system layout and bootloader setup have been very stable, so we do not anticipate a re-installation requirement between BETA and 1.0 release. At present, all that will be required is manually installing a few packages when they are available in the Void Linux repositories.
+The base system layout and bootloader setup have been very stable, so we do not anticipate a re-installation requirement between BETA and RELEASE. At present, all that will be required is manually installing a few packages when they are available in the Void Linux repositories.
 
 ## What does this image provide?
 * A full "ZFS-on-root" installation of Void Linux.
@@ -79,7 +79,7 @@ The base system layout and bootloader setup have been very stable, so we do not 
 3. The default shell for Void Linux is "dash" and is the "/bin/sh" of the system.
    * It might be helpful to run `chsh` after logging in to change the default login shell, as dash is very limited.
    * In shell scripts, make sure to use "#!/bin/bash" instead of "#!/bin/sh", otherwise you may experience odd script failures due to using "dash" instead of the traditional "Bourne shell".
-4. The user password must be a minimum of 8 characters due to the ZFS encryption key length requirement of ZFS encryption. Creating or modifying a user password to be less than 8 characters will break the user account!  
+4. The user password must be a minimum of 8 characters due to the ZFS encryption key length requirement. Modifying a user password to be less than 8 characters later on will break the user account!  
 
 ## Looking ahead
 The next step is finalizing all of the desktop/graphics initialization routines and pushing the trident-core and trident-desktop packages up to Void Linux, including any additional desktop-related packages that we might need. We are running a little bit behind our original timetable, but are still aiming to release the desktop-focused "RELEASE" version of PT based on Void Linux by the end of the month.
