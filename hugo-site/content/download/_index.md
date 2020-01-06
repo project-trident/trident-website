@@ -17,7 +17,7 @@ pre: "<i class='fa fa-download'></i>	"
 |Virtualization| VMWare, bhyve | VirtualBox |
 
 
-{{< download2 "https://project-trident.org/void/" "Void Linux BETA" "https://project-trident.org:40001/void/manifest.json" >}}
+{{< download2 "https://raw.githubusercontent.com/project-trident/trident-website/master/hugo-site/static/iso-manifests/" "Void Linux BETA" >}}
 For details about what this BETA image provides, please see [the announcement](/post/void-beta-available/).
 
 {{< downloads "https://pkg.project-trident.org/iso/stable/" "[Deprecated Jan 2020] Last FreeBSD STABLE" >}}

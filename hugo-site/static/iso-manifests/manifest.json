@@ -1,0 +1,13 @@
+{
+"iso_file" : "Trident-BETA-netinstall-x86_64.iso",
+"iso_size" : "515M",
+"signature_file" : "Trident-BETA-netinstall-x86_64.iso.sig.sha512",
+"md5_file" : "Trident-BETA-netinstall-x86_64.iso.md5",
+"md5" : "2d5b1d17b64d108d64ea5523d98ea73e",
+"sha256_file" : "Trident-BETA-netinstall-x86_64.iso.sha256",
+"sha256" : "cfe2f7b6dbbd818dd4264413c390d726b770a4fb4b8aef20dc194e130d079941",
+"build_date" : "Jan 06, 2020",
+"build_date_time_t" : "1578320534",
+"version" : "Void-BETA"
+}
+

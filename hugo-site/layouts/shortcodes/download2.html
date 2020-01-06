@@ -1,9 +1,8 @@
 {{ $baseurl := (.Get 0) }}
 {{ $release_type := (.Get 1) }}
-{{ $manifest := (.Get 2) }}
-{{ $data := getJSON (print $manifest) }}
+{{ $data := getJSON (print $manifest "manifest.json") }}
 
-  {{ $iso_url := print $baseurl $data.iso_file }}
+  {{ $iso_url := print "https://project-trident.org/void/" $data.iso_file }}
   {{ $sig_url := print $baseurl $data.signature_file }}
   {{ $pubkey_url := print $baseurl "pubkey.pem" }}
   {{ $checksum_url := print $baseurl $data.md5_file }}
