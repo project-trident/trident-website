@@ -79,6 +79,7 @@ The base system layout and bootloader setup appear to be quite stable now, so we
 3. The default shell for Void Linux is "dash" and is the "/bin/sh" of the system.
    * It may be very helpful to run `chsh` after login to change the default login shell, since dash is very limited.
    * In shell scripts, make sure to use "#!/bin/bash" instead of "#!/bin/sh", otherwise you may experience odd script failures due to using "dash" instead of the traditional "Bourne shell".
+4. The user password must be 8 characters in lenght due the key length requirement of ZFS encryption.  Do not attempt to change your password to a shorter password later on as this will break your user account!  
 
 ## Looking ahead
 The next step is finalizing all of the desktop/graphics initialization routines and pushing the trident-core and trident-desktop packages up to Void Linux (as well as any additional desktop-related packages that we might need). We are running a little bit behind our original timetable, but are still aiming to release the desktop-focused "RELEASE" version of PT based on Void Linux by the end of the month.
