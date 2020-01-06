@@ -19,7 +19,7 @@ Please feel free to help expand this wiki while you are using the BETA image!
 ## What is new since the ALPHA image?
 
 * Boot Environment support for fully-separate datasets and snapshot rollback for boot environments.
-   * This is provided by the new [zfsbootmenu utility](https://github.com/zdykstra/zfsbootmenu) created by Zack Dykstra. It is only configured for EFI-based bootloader support. Legacy-boot systems cannot use boot environments at the present time.
+   * This is provided by the new [zfsbootmenu utility](https://github.com/zdykstra/zfsbootmenu) created by Zach Dykstra. It is only configured for EFI-based bootloader support. Legacy-boot systems cannot use boot environments at the present time.
 * User accounts. 
    * A single user account is created at installation.
    * For EFI-booted systems, this user home directory *is encrypted*. It is configured so that logging in to the user account  also decrypts the dataset for that user. Logging out locks the user dataset.
@@ -57,7 +57,7 @@ The base system layout and bootloader setup have been very stable, so we do not 
 * Support for detecting and connecting to wireless networks in an easy-to-use series of prompts (DHCP only). These settings get transferred over to the new installation for out-of-box network support.
 * Due to the constant flow of updates to the Void Linux package repositories, this image is a complete "net-install" implementation. This means that all installed packages are always the current version from the repository and the system is fully up-to-date after the install is complete.
 * Boot Environment support for fully-separate datasets and snapshot rollback for boot environments.
-   * This is enabled with the new [zfsbootmenu utility](https://github.com/zdykstra/zfsbootmenu) created by Zack Dykstra.
+   * This is enabled with the new [zfsbootmenu utility](https://github.com/zdykstra/zfsbootmenu) created by Zach Dykstra.
    * Boot environment support is currently **only** available for EFI-booted systems.
 * User accounts. 
    * Each user account gets a separate ZFS dataset for their home directory. This is configured so the individual user can perform snapshot-related tasks on their own files without needing root permissions.
