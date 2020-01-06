@@ -57,3 +57,4 @@ home = [ "HTML", "RSS", "JSON"]
   twitch = "https://www.twitch.tv/thetridentproject"
   twitter = "https://twitter.com/TridentProject"
   telegram = "https://t.me/ProjectTrident"
+  wiki = "https://github.com/project-trident/trident-docs/wiki"

@@ -17,11 +17,10 @@ pre: "<i class='fa fa-download'></i>	"
 |Virtualization| VMWare, bhyve | VirtualBox |
 
 
-{{< download2 "https://project-trident.org/void/" "Void Linux ALPHA" "https://project-trident.org:40001/void/manifest.json" >}}
-For details about what this ALPHA image provides, please see [the announcement](/post/void-alpha-available/).
+{{< download2 "https://project-trident.org/void/" "Void Linux BETA" "https://project-trident.org:40001/void/manifest.json" >}}
+For details about what this BETA image provides, please see [the announcement](/post/void-beta-available/).
 
-{{< downloads "https://pkg.project-trident.org/iso/stable/" "[EOL: Jan 2020] Latest STABLE" >}}
-{{< downloads "https://pkg.project-trident.org/iso/release/" "[Deprecated Oct 2019] Last CURRENT" >}}
+{{< downloads "https://pkg.project-trident.org/iso/stable/" "[Deprecated Jan 2020] Last FreeBSD STABLE" >}}
 
 ## Differences Between Versions
 | Version | Repository Name | OS | OS Branch | Package Updates | Notes |
