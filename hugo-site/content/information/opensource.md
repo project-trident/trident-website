@@ -17,8 +17,7 @@ Project only has a few repositories that govern the overall course of the projec
 
 | Project | Source Repository | Bug Tracker | Description |
 |:---------:|:----------------------------:|:----------------:|:----------------:|
-|trident-build|[project-trident/trident-build](https://github.com/project-trident/trident-build)|[GitHub issues](https://github.com/project-trident/trident-build/issues)|Build scripts and port/pkg settings|
-|trident-installer|[project-trident/trident-installer](https://github.com/project-trident/trident-installer)|[GitHub issues](https://github.com/project-trident/trident-installer/issues)|Graphical Installer for the ISO|
+|trident-installer|[project-trident/trident-installer](https://github.com/project-trident/trident-installer)|[GitHub issues](https://github.com/project-trident/trident-installer/issues)|ISO creation|
 |trident-core|[project-trident/trident-core](https://github.com/project-trident/trident-core)|[GitHub issues](https://github.com/project-trident/trident-core/issues)|Core configuration files and settings for post-install use|
 |trident-artwork|[project-trident/trident-artwork](https://github.com/project-trident/trident-artwork)|[GitHub issues](https://github.com/project-trident/trident-artwork/issues)|Artwork, wallpapers, banners, and other graphics for Project Trident|
 |trident-icons|[project-trident/trident-icons](https://github.com/project-trident/trident-icons)|[GitHub issues](https://github.com/project-trident/trident-icons/issues)|XDG icon theme(s) for Project Trident|
@@ -30,20 +29,17 @@ There are a number of tools and utilities that Project Trident relies on for fun
 | Project | Source Repository | Bug Tracker | Description | Website |
 |:---------:|:----------------------------:|:----------------:|:----------------:|:-----------:|
 |Lumina Desktop|[lumina-desktop](https://github.com/lumina-desktop)|[GitHub issues](https://github.com/lumina-desktop/lumina/issues)|Graphical user interface: Everything post-login|[lumina-desktop.org](https://www.lumina-desktop.org)|
-|TrueOS Base|[trueos/trueos](https://github.com/trueos/trueos)|[GitHub issues](https://github.com/trueos/trueos/issues)|Base OS: kernel, userland utilities, install utility, and more|[trueos.org](https://www.trueos.org)|
-|TrueOS Ports|[trueos/trueos-ports](https://github.com/trueos/trueos-ports)|[GitHub issues](https://github.com/trueos/trueos-ports/issues)|Registration and build instructions for all packages and utilities|[trueos.org](https://www.trueos.org)|
-|SysAdm (service)|[trueos/sysadm](https://github.com/trueos/sysadm)|[GitHub issues](https://github.com/trueos/sysadm/issues)|TrueOS service which provides a static API for system interactions|[sysadm.us](https://sysadm.us)|
-|SysAdm (client)|[trueos/sysadm](https://github.com/trueos/sysadm-ui-qt)|[GitHub issues](https://github.com/trueos/sysadm-ui-qt/issues)|Graphical "Control Panel" utility|[sysadm.us](https://sysadm.us)|
+|Void Linux Packages| [void-packages](https://github.com/void-linux/void-packages)|[GitHub issues](https://github.com/void-linux/void-packages/issues)|All packages: including Linux kernel and userland|[voidlinux.org](https://www.voidlinux.org)|
 
 ### Inherited Repositories from TrueOS
 A number of the graphical utilities from the old TrueOS "desktop" release were also migrated over to Project Trident. Some of these tools may be active and available as a package and some of them may just be archives that are preserved for historical reference.
 
 |Status | Project | Source Repository | Description |
 |:--------:|:---------:|:----------------------------:|:----------------:|
-| **Active** | PCDM | [project-trident/pcdm](https://github.com/project-trident/pcdm) | Graphical login manager for TrueOS |
-| **Active** | pc-mixer | [project-trident/pc-mixer](https://github.com/project-trident/pc-mixer) | Graphical mixer utility for the system tray |
 | **Active** | qsudo | [project-trident/qsudo](https://github.com/project-trident/qsudo) | Graphical interface to "sudo" (launch app as root) |
-| **Active** | pc-networkmanager | [project-trident/pc-networkmanager](https://github.com/project-trident/pc-networkmanager) | Graphical network configuration utility |
+| *Archive* | PCDM | [project-trident/pcdm](https://github.com/project-trident/pcdm) | Graphical login manager for TrueOS |
+| *Archive* | pc-mixer | [project-trident/pc-mixer](https://github.com/project-trident/pc-mixer) | Graphical mixer utility for the system tray |
+| *Archive* | pc-networkmanager | [project-trident/pc-networkmanager](https://github.com/project-trident/pc-networkmanager) | Graphical network configuration utility |
 | *Archive* | pc-firewall | [project-trident/pc-firewall](https://github.com/project-trident/pc-firewall) | Graphical firewall utility: *Replaced by SysAdm* |
 | *Archive* | pc-webkitviewer | [project-trident/pc-webkitviewer](https://github.com/project-trident/pc-webkitviewer) | Small browser "wrapper" to make a local html file or URL look like a native app |
 | *Stagnant* | pc-diskmanager | [project-trident/pc-diskmanager](https://github.com/project-trident/pc-diskmanager) | Graphical tool for viewing/changing zpool and disk information |
