@@ -50,7 +50,7 @@ There are also tips about increasing the security of the installed system beyond
 
 The security features built into Project Trident include:
 
-- **All users home directories are encrypted out of box** The individual user directories are only "unlocked" and decrypted when that user logs in to the system. Logging out or rebooting the system automatically locks the home directories again.
+- **All user home directories are encrypted out of box.** The individual user directories are only "unlocked" and decrypted when that user logs in to the system. Logging out or rebooting the system automatically locks home directories.
 
 - **Naturally immune to viruses and other malware written for other Operating Systems:** Most viruses are written to exploit the Windows operating system.
   These are incompatible with the binaries and paths found on a Project Trident system.
