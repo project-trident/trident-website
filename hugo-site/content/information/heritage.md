@@ -14,5 +14,5 @@ Project Trident is completely independent and [financially backed through the ge
 [Project Trident](https://project-trident.org) began in 2018 when TrueOS was reorganized into a scaled down server installation of FreeBSD.
 The discontinued desktop portion of TrueOS was adopted by Ken Moore and J.T. Pennington, two desktop-focused TrueOS developers, and rebuilt into Project Trident.
 
-In 2019, Project Trident announced it would be leaving TrueOS/FreeBSD and rebasing the project upon [Void Linux](http://voidlinux.org) in order to better serve their users and provide essential functionality for a desktop system.
+In 2019, Project Trident announced it would be leaving TrueOS/FreeBSD and rebasing the project on [Void Linux](http://voidlinux.org) to better serve their users and provide essential functionality for a desktop system.
 This transition was completed in February of 2020 when the first official release using Void Linux was published.
