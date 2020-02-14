@@ -69,7 +69,7 @@ The security features built into Project Trident include:
   The firewall does not allow any inbound connections to the computer unless authorized by the user.
 
 - **Few default services:** All boot services can be viewed in the Service Manager.
-  Service Manager also allows starting, stopping, and adding or removing from boot any system service.
+  Service Manager also allows starting, stopping, and adding or removing any system service from boot.
 
 - **SSH is disabled by default:** SSH can only be enabled by the administrator (root).
   This prevents bots and outside individuals from accessing a Project Trident system.
