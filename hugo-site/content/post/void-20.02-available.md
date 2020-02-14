@@ -22,7 +22,7 @@ Please note the Project Trident installer supports four different installation "
 Yes. There have been many changes to boot setup and dataset organization since the ALPHA image. These changes are difficult to make without a full reinstall.
 
 ## I installed the BETA, do I have to reinstall for the Release?
-No need. There it only takes a couple simple steps to migrate your BETA system to the RELEASE. These steps are listed in the [Migration Notes](https://github.com/project-trident/trident-docs/wiki/Converting-an-install-to-Project-Trident) on the Documentation wiki.
+No. There are a couple simple steps to migrate your BETA system to the RELEASE. These steps are listed in the [Migration Notes](https://github.com/project-trident/trident-docs/wiki/Converting-an-install-to-Project-Trident) on the Documentation wiki.
 
 ## Important notes
 
