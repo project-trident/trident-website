@@ -18,7 +18,7 @@ pre: "<i class='fa fa-download'></i>	"
 
 {{< download2 "https://raw.githubusercontent.com/project-trident/trident-website/voidify/hugo-site/static/iso-manifests/" "Void Linux" >}}
 
-### Security Updates
+### Security Updates 
 Package updates are available daily from Void Linux. These include security updates, kernel updates, and application updates on a frequent basis.
 
 ## Verify ISO Integrity
