@@ -3,11 +3,11 @@
 "iso_size" : "523M",
 "signature_file" : "Trident-netinstall-x86_64.iso.sig.sha512",
 "md5_file" : "Trident-netinstall-x86_64.iso.md5",
-"md5" : "/usr/home/kenmoore/Trident/trident-website/hugo-site/static/iso-manifests/Trident-netinstall-x86_64.iso",
+"md5" : "76daffa9142c14b401f0f1898b723dbf",
 "sha256_file" : "Trident-netinstall-x86_64.iso.sha256",
-"sha256" : "/usr/home/kenmoore/Trident/trident-website/hugo-site/static/iso-manifests/Trident-netinstall-x86_64.iso",
+"sha256" : "d32d68cdaa3f66f2ae6dca4292acacb7b6ebc28cf5893d653c645134640cd303",
 "build_date" : "Feb 14, 2020",
-"build_date_time_t" : "1581695350",
+"build_date_time_t" : "1581695890",
 "version" : "20.02"
 }
 
