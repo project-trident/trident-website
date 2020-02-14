@@ -9,7 +9,7 @@ pre = "<i class='fa fa-exclamation'></i>	"
 
 Project Trident is pleased to announce the first official release image based on Void Linux, available on the [Project Trident download page](/download).
 
-Please note the four different "levels" of an installation that are available in the Project Trident installer:
+Please note the Project Trident installer supports four different installation "levels":
 
 * **Void** : Only the base-system from Void Linux and ZFS-related bootloader packages are installed.
 * **Server** : A CLI-based system with additional services and utilities installed from Project Trident (firewall, cron, autofs, wireguard, additional shells, etc.)
