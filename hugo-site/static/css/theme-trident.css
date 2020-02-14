@@ -137,6 +137,7 @@ a:hover {
 .social_icons > li {
 	cursor: pointer;
         font-size: 1.3rem;
+        margin-left: 1em;
 }
 
 .align-row{

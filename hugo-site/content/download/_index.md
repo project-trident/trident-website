@@ -16,7 +16,7 @@ pre: "<i class='fa fa-download'></i>	"
 |Disk Space| 20GB+ | 10GB |
 
 
-{{< download2 "https://raw.githubusercontent.com/project-trident/trident-website/voidify/hugo-site/static/iso-manifests/" "Void Linux" >}}
+{{< download2 "https://raw.githubusercontent.com/project-trident/trident-website/master/hugo-site/static/iso-manifests/" "Void Linux" >}}
 
 ### Security Updates 
 Package updates are available daily from Void Linux. These include security updates, kernel updates, and application updates on a frequent basis.
