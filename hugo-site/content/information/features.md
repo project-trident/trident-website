@@ -78,7 +78,7 @@ The security features built into Project Trident include:
   A firewall rule opening up TCP port *22* for SSH access is also required. Alternatively, the firewall can be temporarily disabled by running `sudo sv stop nftables` (remember to start it again later, a reboot will also bring the firewall back up).
 
 - **SSH root logins are disabled:** If SSH is enabled, login as a regular user and use `su` or `sudo` for administrative actions.
-  Do not change this setting, as it prevents an unwanted user from having complete access to the system.
+  For your security, do not change this setting. Disabling root logins prevents unwanted users from having complete access to the system.
 
 - **sudo is installed:** `sudo` allows users in the *wheel*  group permission to run an administrative command after typing the user password, not the *root* password.
   The first user created during installation is added to the *wheel* group.
