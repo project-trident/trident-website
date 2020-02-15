@@ -13,7 +13,7 @@ pre: "<i class='fa fa-download'></i>	"
 |:--:|:--------------------:|:--------------:|
 |Architecture| 64-bit | 64-bit |
 | Memory | 4GB | 2GB |
-|Disk Space| 20GB+ | 10GB |
+|Disk Space| **1 whole disk**: 20GB+ | **1 whole disk**: 10GB+ |
 
 
 {{< download2 "https://raw.githubusercontent.com/project-trident/trident-website/master/hugo-site/static/iso-manifests/" "Void Linux" >}}
