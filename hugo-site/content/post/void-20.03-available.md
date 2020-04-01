@@ -48,4 +48,4 @@ This is a brand-new utility from Project Trident, specifically for managing netw
    * If wireguard is installed, this provides an easy way to import wireguard client profiles and start/stop them as needed.
    * We are planning to add OpenVPN support to this tool in a later version as well.
 
-The trident-networkmgr utility is also available for pure Void-Linux systems as well, but you may need to install and enable the wpa_supplicant, dhcpcd, and nftables services before functionality becomes available in the utility (it will disabled pages/tabs as needed for your system capabilities). Wireguard will also need to be installed before that functionality is usable.
+The trident-networkmgr utility is also available for pure Void-Linux systems as well, but you may need to install and enable the wpa_supplicant, dhcpcd, and nftables services before functionality becomes available in the utility (it will disable pages/tabs as appropriate for your system). Wireguard will also need to be installed before that functionality is usable.
