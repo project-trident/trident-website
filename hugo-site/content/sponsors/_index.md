@@ -39,6 +39,8 @@ Here are some key repositories where anyone can easily submit changes:
 #### Documentation
 * Repository: [https://github.com/project-trident/trident-docs/wiki](https://github.com/project-trident/trident-docs/wiki)
 * Want to write a quick "How-To" for something? How about writing down some special tweak needed for your system? The Trident Wiki is open and easy to submit changes to!
+
+
 ---
 
 *[Contact the Project Trident Core Team](mailto:core@project-trident.org) to discuss additional opportunities*
