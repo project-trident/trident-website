@@ -157,6 +157,9 @@ a:hover {
   background-color: var(--MAIN-LINK-color);
   color: #ffffff;
   font-weight: bold;
+  font-size: medium;
+  padding: 0.3ex;
+  margin: 2px;
 }
 
 .bannerimg {
