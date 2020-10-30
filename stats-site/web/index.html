@@ -4,7 +4,7 @@
     <script src="https://cdn.anychart.com/releases/8.6.0/js/anychart-base.min.js" type="text/javascript"></script>
     <script>
       anychart.onDocumentReady(function () {
-	fetch("/daily.json")
+	fetch("/pkg-daily.json")
 	  .then(function(response) {
 	    return response.json();
 	  })
@@ -13,7 +13,7 @@
 	    chart.container("container-daily");
 	    chart.draw();
 	  });
-	fetch("/monthly.json")
+	fetch("/pkg-monthly.json")
 	  .then(function(response) {
 	    return response.json();
 	  })
@@ -26,7 +26,7 @@
     </script>
 </head>
 <body>
-    <h1> Project Trident Usage Statistics </h1>
+    <h1> Project Trident Usage Statistics (Void Linux) </h1>
     <div id="container-daily" style="width: 100%; height: 43%;"></div>
 <br>
 <br>

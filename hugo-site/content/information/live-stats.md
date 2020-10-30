@@ -11,10 +11,8 @@ Project Trident has a strict "no-tracking" policy for our users, and this direct
 
 Project Trident does not include any "anonymous reporting" methods that are common in applications. Instead, the only thing that Project Trident tracks is the number of update file downloads from our web servers. This provides basic but useful statistics about the number of systems that are online at any given day or month. This also lets us see the version breakdown that are still running "out in the wild".
 
-### NOTICE
-***The stats on this page are only for the FreeBSD-based version of Project Trident, which was discontinued in January of 2020.***
-
-***The statistics for the Void-Linux based version of Project Trident are still TO-DO.***
+### Details
+The metrics reported here are simply counts of the number of systems which are checking-in to the Project Trident package repository for updates. This only counts actual systems (using xbps) and also ignores additional events from the same IP within each 24-hour period.
 
 
 {{< embed "https://project-trident.org:40001" >}}
