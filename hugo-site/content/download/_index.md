@@ -18,6 +18,9 @@ pre: "<i class='fa fa-download'></i>	"
 
 {{< download2 "https://raw.githubusercontent.com/project-trident/trident-website/master/hugo-site/static/iso-manifests/" "Void Linux" >}}
 
+## Version Note
+This ISO is a dynamic netinstall image. It requires an internet connection before the installation can be started, but it always installs an up-to-date version of Project Trident using the latest official packages from Void Linux.
+
 ### Security Updates 
 Package updates are available daily from Void Linux. These include security updates, kernel updates, and application updates on a frequent basis.
 
