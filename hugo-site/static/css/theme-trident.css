@@ -59,6 +59,7 @@ code + .copy-to-clipboard, code +.copy-to-clipboard:hover {
 
 a {
     color: var(--MAIN-LINK-color);
+    font-weight: bolder;
 }
 
 .anchor {
