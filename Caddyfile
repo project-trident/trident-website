@@ -8,6 +8,9 @@ download.project-trident.org {
 	encode zstd gzip
 	root * /usr/local/www/trident-packages
 	file_server browse 
+	log {
+		output file /var/log/caddy/downloads.log
+	}
 }
 
 :40001 {
