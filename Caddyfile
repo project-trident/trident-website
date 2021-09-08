@@ -1,0 +1,16 @@
+project-trident.org, www.project-trident.org {
+	encode zstd gzip
+	root * /usr/local/www/trident
+	file_server
+}
+
+download.project-trident.org {
+	encode zstd gzip
+	root * /usr/local/www/trident-packages
+	file_server browse 
+}
+
+:40001 {
+	encode zstd gzip
+	root * /root/stats-site/web
+}
