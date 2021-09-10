@@ -15,14 +15,18 @@ pre: "<i class='fa fa-download'></i>	"
 | Memory | 4GB | 2GB |
 |Disk Space| **1 whole disk**: 20GB+ | **1 whole disk**: 10GB+ |
 
-
-{{< download2 "https://raw.githubusercontent.com/project-trident/trident-website/master/hugo-site/static/iso-manifests/" "Void Linux" >}}
-
 ## Version Note
-This ISO is a dynamic netinstall image. It requires an internet connection before the installation can be started, but it always installs an up-to-date version of Project Trident using the latest official packages from Void Linux.
+This ISO is a dynamic netinstall image. It requires an internet connection before the installation can be started, but it **always** installs an up-to-date version of Project Trident using the latest official packages from Void Linux. 
+
+New ISO's are only released as needed to update the installation procedure, and do not correspond to any particular "release" of Project Trident or Void Linux.
+
+{{< download2 "https://download.project-trident.org/iso/21.09/" "Project Trident Installer" >}}
+
 
 ### Security Updates 
 Package updates are available daily from Void Linux. These include security updates, kernel updates, and application updates on a frequent basis.
+
+Run the `trident-update [-check | -update]` command to perform updates as desired. For safety, this will make a ZFS snapshot of your system before anything is changed, and you can roll back to that snapshot later if needed.
 
 ## Verify ISO Integrity
 Project Trident digitally signs all packages and install images with OpenSSL keys. Package signatures are automatically verified by the "xbps" package manager from Void Linux, but the ISO signatures need to be verified manually using the "openssl" utility (which is available on all major operating systems).

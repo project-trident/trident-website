@@ -2,15 +2,15 @@
 {{ $release_type := (.Get 1) }}
 {{ $data := getJSON (print $baseurl "manifest.json") }}
 
-  {{ $iso_url := print "https://project-trident.org/void/" $data.iso_file }}
+  {{ $iso_url := print $baseurl $data.iso_file }}
   {{ $sig_url := print $baseurl $data.signature_file }}
-  {{ $pubkey_url := print $baseurl "pubkey.pem" }}
+  {{ $pubkey_url := print "https://raw.githubusercontent.com/project-trident/trident-installer/master/iso-pubkey.pem" }}
   {{ $checksum_url := print $baseurl $data.md5_file }}
   {{ $checksum_sha_url := print $baseurl $data.sha256_file }}
 <br>
   <article>
     <div class="blogpost">
-      <h3>{{ $release_type }} Release</h3>
+      <h3>{{ $release_type }}</h3>
       <b> DVD/USB Install image ({{ $data.iso_size }}):
         <a class="button" href={{ $iso_url }}>{{ $data.iso_file }}</a>
       </b>
