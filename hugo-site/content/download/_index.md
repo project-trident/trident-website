@@ -8,6 +8,10 @@ weight: 2
 pre: "<i class='fa fa-download'></i>	"
 ---
 
+---
+# Project Trident is closing down with an End-of-Life date of March 1, 2022
+---
+
 ## System Requirements
 |System|Recommended|Minimum |
 |:--:|:--------------------:|:--------------:|
